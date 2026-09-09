@@ -7,7 +7,9 @@
 <p align="center">
   <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
-  <img src="https://img.shields.io/badge/projects-<!-- PROJECTS_COUNT_START -->26<!-- PROJECTS_COUNT_END -->-blue?label=Projects" alt="Projects">
+  <!-- PROJECTS_COUNT_START -->
+  <img src="https://img.shields.io/badge/projects-26-blue?label=Projects" alt="Projects">
+  <!-- PROJECTS_COUNT_END -->
 </p>
 
 <p align="center">
