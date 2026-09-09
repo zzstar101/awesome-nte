@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="assets/nte-logo.png" width="260" alt="Neverness to Everness">
-  <p style="font-size: 40px; font-weight: 800; letter-spacing: 1px; margin: 10px 0 4px;">Awesome 异环</p>
+  <img src="assets/icon.png" width="140" height="140" alt="Neverness to Everness">
+  <p style="font-size: 40px; font-weight: 800; letter-spacing: 1px; margin: 12px 0 4px;">Awesome 异环</p>
   <p style="color:#59636e; margin: 0 0 16px;">社区开源项目索引 · Community Open-Source Index</p>
 </div>
 
