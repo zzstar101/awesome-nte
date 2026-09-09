@@ -1,0 +1,394 @@
+[
+  {
+    "id": 1,
+    "name": "1bananachicken/MaaNTE",
+    "description": {
+      "zh-CN": "基于 MaaFramework 的异环全能小助手，用屏幕识别实现日常任务、自动采集、副本挂机与抽卡记录，无注入。",
+      "en-US": "All-in-one Neverness to Everness assistant built on MaaFramework, automating dailies, farming, dungeons and gacha tracking via screen recognition without injection."
+    },
+    "repository": "https://github.com/1bananachicken/MaaNTE",
+    "website": [{ "provider": "Custom", "url": "https://docs.maante.org" }],
+    "author": { "name": "1bananachicken", "url": "https://github.com/1bananachicken" },
+    "category": "Automation",
+    "tags": ["Automation", "Computer-Vision", "Cross-Platform"],
+    "license": "AGPL-3.0",
+    "platform": ["Windows", "Linux"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 2,
+    "name": "BnanZ0/ok-nte",
+    "description": {
+      "zh-CN": "基于 ok-script 框架的异环图像识别自动化工具，支持后台副本挂机与丰富的插件生态，无内存注入。",
+      "en-US": "Image-recognition automation for Neverness to Everness built on the ok-script framework, supporting background dungeon grinding and a rich plugin ecosystem without injection."
+    },
+    "repository": "https://github.com/BnanZ0/ok-nte",
+    "author": { "name": "BnanZ0", "url": "https://github.com/BnanZ0" },
+    "category": "Automation",
+    "tags": ["Automation", "Computer-Vision", "Plugin"],
+    "license": "GPL-3.0",
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 3,
+    "name": "BetterAutoFramework/BetterNTE",
+    "description": {
+      "zh-CN": "面向异环的「更好」自动化框架与桌面客户端，基于 Rust/Tauri，追求更稳定、更快的自动化体验。",
+      "en-US": "Alternative automation framework and desktop client for Neverness to Everness built with Rust/Tauri, aiming for better performance and stability."
+    },
+    "repository": "https://github.com/BetterAutoFramework/BetterNTE",
+    "author": { "name": "BetterAutoFramework", "url": "https://github.com/BetterAutoFramework" },
+    "category": "Automation",
+    "tags": ["Automation", "Framework", "Desktop"],
+    "license": "GPL-3.0",
+    "platform": ["Windows", "Linux"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 4,
+    "name": "Loping151/TGDSign",
+    "description": {
+      "zh-CN": "塔吉多社区每日签到插件（GSUID 生态），支持幻塔与异环。",
+      "en-US": "Taygedo daily check-in plugin for the GSUID ecosystem, supporting Tower of Fantasy and Neverness to Everness."
+    },
+    "repository": "https://github.com/Loping151/TGDSign",
+    "author": { "name": "Loping151", "url": "https://github.com/Loping151" },
+    "category": "Automation",
+    "tags": ["Check-in", "Plugin"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 5,
+    "name": "zzstar101/taygedo-auto-attendance",
+    "description": {
+      "zh-CN": "塔吉多自动签到工具，支持多账号、自动重登、APP/游戏签到与异环云时长，可部署到 GitHub Actions、Cloudflare Workers 或 Docker。",
+      "en-US": "Taygedo auto check-in with multi-account support, auto-relogin, app/game check-in and NTE cloud time, deployable via GitHub Actions, Cloudflare Workers or Docker."
+    },
+    "repository": "https://github.com/zzstar101/taygedo-auto-attendance",
+    "author": { "name": "zzstar101", "url": "https://github.com/zzstar101" },
+    "category": "Automation",
+    "tags": ["Check-in", "Multi-Account", "Serverless"],
+    "license": "MIT",
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 6,
+    "name": "hxwd94666/NTE-Drive-Calculator",
+    "description": {
+      "zh-CN": "异环「驱动」养成计算器，帮助全角色轻松规划养成路线与搭配。",
+      "en-US": "Cultivation (drive) calculator for Neverness to Everness, helping plan character progression and loadouts."
+    },
+    "repository": "https://github.com/hxwd94666/NTE-Drive-Calculator",
+    "author": { "name": "hxwd94666", "url": "https://github.com/hxwd94666" },
+    "category": "Calculators",
+    "tags": ["Cultivation", "Planner"],
+    "license": "AGPL-3.0",
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 7,
+    "name": "Tsukimisaka/NTE-Cassette-Tuner",
+    "description": {
+      "zh-CN": "异环全能养成与伤害计算器，OCR 快速扫描、配装推荐、详细伤害与材料计算，公式参数可调。",
+      "en-US": "All-in-one progression and damage calculator for NTE with fast OCR scanning, gear recommendations, detailed damage and material math with tunable formulas."
+    },
+    "repository": "https://github.com/Tsukimisaka/NTE-Cassette-Tuner",
+    "author": { "name": "Tsukimisaka", "url": "https://github.com/Tsukimisaka" },
+    "category": "Calculators",
+    "tags": ["Damage", "OCR", "Planner"],
+    "license": "MIT",
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 8,
+    "name": "ExpiredMilker/NTEGachaSimulator",
+    "description": {
+      "zh-CN": "异环抽卡模拟器，用于试验与规划抽取策略。",
+      "en-US": "Gacha (warp) simulator for Neverness to Everness for testing and planning pulls."
+    },
+    "repository": "https://github.com/ExpiredMilker/NTEGachaSimulator",
+    "author": { "name": "ExpiredMilker", "url": "https://github.com/ExpiredMilker" },
+    "category": "Calculators",
+    "tags": ["Gacha", "Simulator"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 9,
+    "name": "kongbaiz/nte-dps-toolkit",
+    "description": {
+      "zh-CN": "开源 NTE DPS 工具包，用于伤害分析、测试与性能优化等研究工作流。",
+      "en-US": "Open-source NTE DPS toolkit for damage analytics, testing and performance-optimization workflows."
+    },
+    "repository": "https://github.com/kongbaiz/nte-dps-toolkit",
+    "author": { "name": "kongbaiz", "url": "https://github.com/kongbaiz" },
+    "category": "Data",
+    "tags": ["DPS", "Analysis", "Cross-Platform"],
+    "license": "AGPL-3.0",
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 10,
+    "name": "p62003/NTE-DPS-Meter",
+    "description": {
+      "zh-CN": "实时 DPS 悬浮窗，通过被动抓包（无内存注入）统计伤害，含队伍追踪与社区排行。",
+      "en-US": "Real-time DPS overlay using passive packet capture (no memory injection), with party tracking and community rankings."
+    },
+    "repository": "https://github.com/p62003/NTE-DPS-Meter",
+    "website": [{ "provider": "Custom", "url": "https://ntedpsmeter.com" }],
+    "author": { "name": "p62003", "url": "https://github.com/p62003" },
+    "category": "Data",
+    "tags": ["DPS", "Overlay", "Packet-Capture"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 11,
+    "name": "Anong0u0/NTE_Gacha_Exporter",
+    "description": {
+      "zh-CN": "异环抽卡记录分析与导出工具，支持多个卡池，输出可追踪的 JSON。",
+      "en-US": "Gacha history analysis and export tool for NTE, supporting multiple banners and tracker-ready JSON output."
+    },
+    "repository": "https://github.com/Anong0u0/NTE_Gacha_Exporter",
+    "author": { "name": "Anong0u0", "url": "https://github.com/Anong0u0" },
+    "category": "Data",
+    "tags": ["Gacha", "Exporter"],
+    "license": "MIT",
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 12,
+    "name": "AixLnyt/NTE-Network-Traffic-Analysis",
+    "description": {
+      "zh-CN": "基于 Wireshark 的异环流量研究与逆向分析，记录服务器、域名、TLS 与协议行为。",
+      "en-US": "Wireshark-based traffic analysis and reverse-engineering research, documenting NTE servers, domains, TLS and protocol behavior."
+    },
+    "repository": "https://github.com/AixLnyt/NTE-Network-Traffic-Analysis",
+    "author": { "name": "AixLnyt", "url": "https://github.com/AixLnyt" },
+    "category": "Data",
+    "tags": ["Reverse-Engineering", "Network", "Research"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 13,
+    "name": "Waifus-Grace/NTE_Assets",
+    "description": {
+      "zh-CN": "异环游戏资源提取合集，包含 UI、数据表与文本等素材。",
+      "en-US": "Extracted Neverness to Everness game assets, including UI textures, data tables and localization text."
+    },
+    "repository": "https://github.com/Waifus-Grace/NTE_Assets",
+    "author": { "name": "Waifus-Grace", "url": "https://github.com/Waifus-Grace" },
+    "category": "Assets",
+    "tags": ["Datamining", "Assets"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 14,
+    "name": "CHN-HelloWorld/NEMI",
+    "description": {
+      "zh-CN": "异环模型导入器，用于将游戏模型导入 Blender 等工具进行查看与修改。",
+      "en-US": "Model importer for Neverness to Everness, bringing in-game models into Blender and other tools."
+    },
+    "repository": "https://github.com/CHN-HelloWorld/NEMI",
+    "author": { "name": "CHN-HelloWorld", "url": "https://github.com/CHN-HelloWorld" },
+    "category": "Assets",
+    "tags": ["Model-Import", "Blender"],
+    "license": "GPL-3.0",
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 15,
+    "name": "Daturaxoxo/Aurora",
+    "description": {
+      "zh-CN": "面向二次元游戏的轻量 Mod 管理器与发布平台，使用 Rust/Slint 构建，支持异环。",
+      "en-US": "Lightweight mod manager and publishing platform for anime games built with Rust/Slint, with Neverness to Everness support."
+    },
+    "repository": "https://github.com/Daturaxoxo/Aurora",
+    "website": [{ "provider": "Custom", "url": "https://getaurora.moe" }],
+    "author": { "name": "Daturaxoxo", "url": "https://github.com/Daturaxoxo" },
+    "category": "Mods",
+    "tags": ["Mod-Manager", "Cross-Platform"],
+    "status": "active",
+    "platform": ["Windows", "Linux"],
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 16,
+    "name": "VanillaNahida/NTE-Custom-BAGEL",
+    "description": {
+      "zh-CN": "为异环 BAGEL 系统替换自定义图片/照片背景的工具，支持国服与国际服。",
+      "en-US": "Custom image replacement tool for NTE's BAGEL photo system, supporting CN and international servers."
+    },
+    "repository": "https://github.com/VanillaNahida/NTE-Custom-BAGEL",
+    "author": { "name": "VanillaNahida", "url": "https://github.com/VanillaNahida" },
+    "category": "Mods",
+    "tags": ["Mod", "BAGEL", "Windows"],
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 17,
+    "name": "AlteriaX/NTE-Configs",
+    "description": {
+      "zh-CN": "异环配置文件合集，用于优化画面效果或性能表现。",
+      "en-US": "Collection of NTE configuration files to improve visuals or performance."
+    },
+    "repository": "https://github.com/AlteriaX/NTE-Configs",
+    "author": { "name": "AlteriaX", "url": "https://github.com/AlteriaX" },
+    "category": "Performance",
+    "tags": ["Config", "Visuals", "Performance"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 18,
+    "name": "AnomalyNTE/Anomaly",
+    "description": {
+      "zh-CN": "异环插件框架与 API，支持第三方为游戏开发插件与扩展。",
+      "en-US": "Plugin framework and API for Neverness to Everness, enabling third-party plugin and extension development."
+    },
+    "repository": "https://github.com/AnomalyNTE/Anomaly",
+    "author": { "name": "AnomalyNTE", "url": "https://github.com/AnomalyNTE" },
+    "category": "Tools",
+    "tags": ["Framework", "Plugin"],
+    "license": "AGPL-3.0",
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 19,
+    "name": "tyql688/NTEUID",
+    "description": {
+      "zh-CN": "异环机器人插件，支持 OneBot、QQ、微信、KOOK、Telegram、Discord 等平台接入。",
+      "en-US": "NTE chatbot plugin supporting OneBot, QQ, WeChat, KOOK, Telegram, Discord and more."
+    },
+    "repository": "https://github.com/tyql688/NTEUID",
+    "author": { "name": "tyql688", "url": "https://github.com/tyql688" },
+    "category": "Tools",
+    "tags": ["Bot", "Multi-Platform"],
+    "license": "GPL-3.0",
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 20,
+    "name": "LyraVoid/NTE-Compass",
+    "description": {
+      "zh-CN": "异环互动地图，含传送点、收集品、任务、朝圣点与采集路线，支持进度追踪。",
+      "en-US": "Interactive NTE map with teleport points, collectibles, quests, pilgrimage spots, farming routes and progress tracking."
+    },
+    "repository": "https://github.com/LyraVoid/NTE-Compass",
+    "author": { "name": "LyraVoid", "url": "https://github.com/LyraVoid" },
+    "category": "Tools",
+    "tags": ["Map", "Web"],
+    "license": "AGPL-3.0",
+    "platform": ["Web"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 21,
+    "name": "leck995/NTE-Maid",
+    "description": {
+      "zh-CN": "异环全能小工具，含全服抽卡分析、游玩时长记录与车载音乐功能，支持国服/国际服。",
+      "en-US": "NTE utility with full-server gacha analysis, play-time tracking and in-car music, for CN & international servers."
+    },
+    "repository": "https://github.com/leck995/NTE-Maid",
+    "author": { "name": "leck995", "url": "https://github.com/leck995" },
+    "category": "Tools",
+    "tags": ["Gacha", "Utility", "Cross-Platform"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 22,
+    "name": "VanillaNahida/NTEServerSwitch",
+    "description": {
+      "zh-CN": "异环官服/B 服切换器，用于在国服官方服务器与 B 服之间切换。",
+      "en-US": "Server switcher between the official CN server and the Bilibili server for NTE."
+    },
+    "repository": "https://github.com/VanillaNahida/NTEServerSwitch",
+    "author": { "name": "VanillaNahida", "url": "https://github.com/VanillaNahida" },
+    "category": "Tools",
+    "tags": ["Utility", "Windows"],
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 23,
+    "name": "enenhhh/nte-player",
+    "description": {
+      "zh-CN": "用 Python 还原的异环车载悬浮音乐播放器。",
+      "en-US": "Python recreation of NTE's in-car floating music player."
+    },
+    "repository": "https://github.com/enenhhh/nte-player",
+    "author": { "name": "enenhhh", "url": "https://github.com/enenhhh" },
+    "category": "Tools",
+    "tags": ["Music", "Utility"],
+    "license": "MIT",
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 24,
+    "name": "bcheung98/irminsul-gg",
+    "description": {
+      "zh-CN": "多款抽卡游戏（含异环）的综合数据库与工具集合，基于 Next.js。",
+      "en-US": "Comprehensive database and tool collection for gacha games including NTE, built with Next.js."
+    },
+    "repository": "https://github.com/bcheung98/irminsul-gg",
+    "author": { "name": "bcheung98", "url": "https://github.com/bcheung98" },
+    "category": "Tools",
+    "tags": ["Database", "Web", "Multi-Game"],
+    "license": "MIT",
+    "platform": ["Web"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 25,
+    "name": "PaoloESAN/gacha-setup",
+    "description": {
+      "zh-CN": "Blender 插件，为抽卡游戏（含异环）模型提供自动绑定、卡通着色与材质管线。",
+      "en-US": "Blender add-on providing automated rigging, toon shaders and material pipelines for gacha models including NTE."
+    },
+    "repository": "https://github.com/PaoloESAN/gacha-setup",
+    "author": { "name": "PaoloESAN", "url": "https://github.com/PaoloESAN" },
+    "category": "Tools",
+    "tags": ["Blender", "Modelling", "Multi-Game"],
+    "license": "GPL-3.0",
+    "status": "active",
+    "addedAt": "2026-09-10"
+  },
+  {
+    "id": 26,
+    "name": "Jed556/AutoMidiPlayer",
+    "description": {
+      "zh-CN": "多功能 MIDI 转按键播放器，用于异环等游戏内的乐器弹奏，基于 C#/WPF。",
+      "en-US": "Feature-rich MIDI-to-keyboard player for in-game instruments across multiple games including NTE, built with C#/WPF."
+    },
+    "repository": "https://github.com/Jed556/AutoMidiPlayer",
+    "author": { "name": "Jed556", "url": "https://github.com/Jed556" },
+    "category": "Tools",
+    "tags": ["Music", "MIDI", "Multi-Game", "Windows"],
+    "license": "GPL-3.0",
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-09-10"
+  }
+]

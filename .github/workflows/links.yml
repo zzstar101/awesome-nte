@@ -1,0 +1,17 @@
+name: Check links
+
+on:
+  schedule:
+    - cron: "17 5 * * 1" # weekly Mondays 05:17 UTC
+  workflow_dispatch:
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check dead links
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress '**/*.md'
+          fail: false

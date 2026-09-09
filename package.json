@@ -1,0 +1,19 @@
+{
+  "name": "awesome-nte",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Awesome 异环 / Neverness to Everness — 社区开源项目索引",
+  "type": "module",
+  "scripts": {
+    "check": "bun run scripts/check.ts",
+    "generate": "bun run scripts/generate.ts",
+    "stars": "bun run scripts/stars.ts",
+    "add": "bun run scripts/add.ts"
+  },
+  "dependencies": {
+    "zod": "^4.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

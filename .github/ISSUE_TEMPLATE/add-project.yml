@@ -1,0 +1,60 @@
+name: Suggest a project
+description: Suggest adding an open-source project to the awesome-nte list.
+title: "[add] "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub 仓库 (owner/repo)
+      placeholder: owner/repo
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 仓库链接
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: textarea
+    id: zh
+    attributes:
+      label: 中文描述（一句话，句号结尾）
+    validations:
+      required: true
+  - type: textarea
+    id: en
+    attributes:
+      label: English description (one sentence, period)
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - Automation
+        - Calculators
+        - Data
+        - Assets
+        - Mods
+        - Performance
+        - Tools
+    validations:
+      required: true
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: 收录标准确认
+      options:
+        - label: 开源且可读源码
+          required: true
+        - label: 与异环 (NTE) 相关，或明确支持 NTE
+          required: true
+        - label: 有 README 且可用
+          required: true
+        - label: 不修改游戏进程/内存/网络（无注入）
+          required: true
+        - label: 与该功能域现有项目不重复（如重复请说明差异化）
+          required: false

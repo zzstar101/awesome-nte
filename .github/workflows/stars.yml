@@ -1,0 +1,25 @@
+name: Update stars
+
+on:
+  schedule:
+    - cron: "23 3 * * *" # daily at 03:23 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stars:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - name: Fetch star counts
+        run: bun run stars
+      - name: Commit snapshot
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update data/stars.json"
+          file_pattern: data/stars.json
+          branch: main

@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - name: Validate data
+        run: bun run check
+      - name: Ensure generated lists are up to date
+        run: |
+          bun run generate
+          if ! git diff --exit-code -- LIST.md LIST.en.md; then
+            echo "::error::LIST.* is out of date. Run 'bun run generate' and commit the result."
+            exit 1
+          fi
