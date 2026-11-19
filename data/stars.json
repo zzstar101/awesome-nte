@@ -1,4 +1,105 @@
 {
-  "updatedAt": "2026-11-18",
-  "repos": {}
+  "updatedAt": "2026-11-19",
+  "repos": {
+    "Maa-NTE/MaaNTE": {
+      "stars": 2825,
+      "fetchedAt": "2026-11-19"
+    },
+    "BnanZ0/ok-nte": {
+      "stars": 1385,
+      "fetchedAt": "2026-11-19"
+    },
+    "BetterAutoFramework/BetterNTE": {
+      "stars": 35,
+      "fetchedAt": "2026-11-19"
+    },
+    "Loping151/TGDSign": {
+      "stars": 27,
+      "fetchedAt": "2026-11-19"
+    },
+    "zzstar101/taygedo-auto-attendance": {
+      "stars": 27,
+      "fetchedAt": "2026-11-19"
+    },
+    "Tsukimisaka/NTE-Cassette-Tuner": {
+      "stars": 10,
+      "fetchedAt": "2026-11-19"
+    },
+    "ExpiredMilker/NTEGachaSimulator": {
+      "stars": 6,
+      "fetchedAt": "2026-11-19"
+    },
+    "kongbaiz/nte-dps-toolkit": {
+      "stars": 74,
+      "fetchedAt": "2026-11-19"
+    },
+    "p62003/NTE-DPS-Meter": {
+      "stars": 41,
+      "fetchedAt": "2026-11-19"
+    },
+    "Anong0u0/NTE_Gacha_Exporter": {
+      "stars": 50,
+      "fetchedAt": "2026-11-19"
+    },
+    "AixLnyt/NTE-Network-Traffic-Analysis": {
+      "stars": 11,
+      "fetchedAt": "2026-11-19"
+    },
+    "Waifus-Grace/NTE_Assets": {
+      "stars": 67,
+      "fetchedAt": "2026-11-19"
+    },
+    "CHN-HelloWorld/NEMI": {
+      "stars": 22,
+      "fetchedAt": "2026-11-19"
+    },
+    "Daturaxoxo/Aurora": {
+      "stars": 122,
+      "fetchedAt": "2026-11-19"
+    },
+    "VanillaNahida/NTE-Custom-BAGEL": {
+      "stars": 55,
+      "fetchedAt": "2026-11-19"
+    },
+    "AlteriaX/NTE-Configs": {
+      "stars": 62,
+      "fetchedAt": "2026-11-19"
+    },
+    "AnomalyNTE/Anomaly": {
+      "stars": 619,
+      "fetchedAt": "2026-11-19"
+    },
+    "tyql688/NTEUID": {
+      "stars": 81,
+      "fetchedAt": "2026-11-19"
+    },
+    "LyraVoid/NTE-Compass": {
+      "stars": 12,
+      "fetchedAt": "2026-11-19"
+    },
+    "leck995/NTE-Maid": {
+      "stars": 37,
+      "fetchedAt": "2026-11-19"
+    },
+    "VanillaNahida/NTEServerSwitch": {
+      "stars": 12,
+      "fetchedAt": "2026-11-19"
+    },
+    "enenhhh/nte-player": {
+      "stars": 6,
+      "fetchedAt": "2026-11-19"
+    },
+    "bcheung98/irminsul-gg": {
+      "stars": 7,
+      "fetchedAt": "2026-11-19"
+    },
+    "PaoloESAN/gacha-setup": {
+      "stars": 55,
+      "fetchedAt": "2026-11-19"
+    },
+    "Jed556/AutoMidiPlayer": {
+      "stars": 71,
+      "fetchedAt": "2026-11-19"
+    }
+  }
 }
