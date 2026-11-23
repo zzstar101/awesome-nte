@@ -240,21 +240,6 @@
     "addedAt": "2026-09-10"
   },
   {
-    "id": 18,
-    "name": "AnomalyNTE/Anomaly",
-    "description": {
-      "zh-CN": "异环插件框架与 API，支持第三方为游戏开发插件与扩展。",
-      "en-US": "Plugin framework and API for Neverness to Everness, enabling third-party plugin and extension development."
-    },
-    "repository": "https://github.com/AnomalyNTE/Anomaly",
-    "author": { "name": "AnomalyNTE", "url": "https://github.com/AnomalyNTE" },
-    "category": "Tools",
-    "tags": ["Framework", "Plugin"],
-    "license": "AGPL-3.0",
-    "status": "active",
-    "addedAt": "2026-09-10"
-  },
-  {
     "id": 19,
     "name": "tyql688/NTEUID",
     "description": {

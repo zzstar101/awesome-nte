@@ -57,7 +57,6 @@
 
 ## Tools & Integrations
 
-- [AnomalyNTE/Anomaly](https://github.com/AnomalyNTE/Anomaly) - Plugin framework and API for Neverness to Everness, enabling third-party plugin and extension development. (AGPL-3.0)
 - [tyql688/NTEUID](https://github.com/tyql688/NTEUID) - NTE chatbot plugin supporting OneBot, QQ, WeChat, KOOK, Telegram, Discord and more. (GPL-3.0)
 - [LyraVoid/NTE-Compass](https://github.com/LyraVoid/NTE-Compass) - Interactive NTE map with teleport points, collectibles, quests, pilgrimage spots, farming routes and progress tracking. (AGPL-3.0 · Web)
 - [leck995/NTE-Maid](https://github.com/leck995/NTE-Maid) - NTE utility with full-server gacha analysis, play-time tracking and in-car music, for CN & international servers.

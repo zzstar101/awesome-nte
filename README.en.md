@@ -11,7 +11,7 @@
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-3CF0DE?labelColor=171824" alt="License"></a>
   <!-- PROJECTS_COUNT_START -->
-  <img src="https://img.shields.io/badge/projects-41-FFD92E?label=Projects&labelColor=171824" alt="Projects">
+  <img src="https://img.shields.io/badge/projects-40-FFD92E?label=Projects&labelColor=171824" alt="Projects">
   <!-- PROJECTS_COUNT_END -->
 </p>
 

@@ -57,7 +57,6 @@
 
 ## 工具与集成
 
-- [AnomalyNTE/Anomaly](https://github.com/AnomalyNTE/Anomaly) - 异环插件框架与 API，支持第三方为游戏开发插件与扩展。(AGPL-3.0)
 - [tyql688/NTEUID](https://github.com/tyql688/NTEUID) - 异环机器人插件，支持 OneBot、QQ、微信、KOOK、Telegram、Discord 等平台接入。(GPL-3.0)
 - [LyraVoid/NTE-Compass](https://github.com/LyraVoid/NTE-Compass) - 异环互动地图，含传送点、收集品、任务、朝圣点与采集路线，支持进度追踪。(AGPL-3.0 · Web)
 - [leck995/NTE-Maid](https://github.com/leck995/NTE-Maid) - 异环全能小工具，含全服抽卡分析、游玩时长记录与车载音乐功能，支持国服/国际服。
