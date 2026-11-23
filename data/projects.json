@@ -7,12 +7,28 @@
       "en-US": "All-in-one Neverness to Everness assistant built on MaaFramework, automating dailies, farming, dungeons and gacha tracking via screen recognition without injection."
     },
     "repository": "https://github.com/Maa-NTE/MaaNTE",
-    "website": [{ "provider": "Custom", "url": "https://docs.maante.org" }],
-    "author": { "name": "1bananachicken", "url": "https://github.com/1bananachicken" },
+    "logo": "https://github.com/Maa-NTE.png?size=128",
+    "website": [
+      {
+        "provider": "Custom",
+        "url": "https://docs.maante.org"
+      }
+    ],
+    "author": {
+      "name": "1bananachicken",
+      "url": "https://github.com/1bananachicken"
+    },
     "category": "Automation",
-    "tags": ["Automation", "Computer-Vision", "Cross-Platform"],
+    "tags": [
+      "Automation",
+      "Computer-Vision",
+      "Cross-Platform"
+    ],
     "license": "AGPL-3.0",
-    "platform": ["Windows", "Linux"],
+    "platform": [
+      "Windows",
+      "Linux"
+    ],
     "status": "active",
     "addedAt": "2026-09-10"
   },
@@ -24,11 +40,21 @@
       "en-US": "Image-recognition automation for Neverness to Everness built on the ok-script framework, supporting background dungeon grinding and a rich plugin ecosystem without injection."
     },
     "repository": "https://github.com/BnanZ0/ok-nte",
-    "author": { "name": "BnanZ0", "url": "https://github.com/BnanZ0" },
+    "logo": "https://raw.githubusercontent.com/BnanZ0/ok-nte/main/icons/icon.png",
+    "author": {
+      "name": "BnanZ0",
+      "url": "https://github.com/BnanZ0"
+    },
     "category": "Automation",
-    "tags": ["Automation", "Computer-Vision", "Plugin"],
+    "tags": [
+      "Automation",
+      "Computer-Vision",
+      "Plugin"
+    ],
     "license": "GPL-3.0",
-    "platform": ["Windows"],
+    "platform": [
+      "Windows"
+    ],
     "status": "active",
     "addedAt": "2026-09-10"
   },
@@ -40,11 +66,22 @@
       "en-US": "Alternative automation framework and desktop client for Neverness to Everness built with Rust/Tauri, aiming for better performance and stability."
     },
     "repository": "https://github.com/BetterAutoFramework/BetterNTE",
-    "author": { "name": "BetterAutoFramework", "url": "https://github.com/BetterAutoFramework" },
+    "logo": "https://raw.githubusercontent.com/BetterAutoFramework/BetterNTE/main/assets/logo.png",
+    "author": {
+      "name": "BetterAutoFramework",
+      "url": "https://github.com/BetterAutoFramework"
+    },
     "category": "Automation",
-    "tags": ["Automation", "Framework", "Desktop"],
+    "tags": [
+      "Automation",
+      "Framework",
+      "Desktop"
+    ],
     "license": "GPL-3.0",
-    "platform": ["Windows", "Linux"],
+    "platform": [
+      "Windows",
+      "Linux"
+    ],
     "status": "active",
     "addedAt": "2026-09-10"
   },
@@ -56,9 +93,15 @@
       "en-US": "Taygedo daily check-in plugin for the GSUID ecosystem, supporting Tower of Fantasy and Neverness to Everness."
     },
     "repository": "https://github.com/Loping151/TGDSign",
-    "author": { "name": "Loping151", "url": "https://github.com/Loping151" },
+    "author": {
+      "name": "Loping151",
+      "url": "https://github.com/Loping151"
+    },
     "category": "Automation",
-    "tags": ["Check-in", "Plugin"],
+    "tags": [
+      "Check-in",
+      "Plugin"
+    ],
     "status": "active",
     "addedAt": "2026-09-10"
   },
@@ -70,9 +113,16 @@
       "en-US": "Taygedo auto check-in with multi-account support, auto-relogin, app/game check-in and NTE cloud time, deployable via GitHub Actions, Cloudflare Workers or Docker."
     },
     "repository": "https://github.com/zzstar101/taygedo-auto-attendance",
-    "author": { "name": "zzstar101", "url": "https://github.com/zzstar101" },
+    "author": {
+      "name": "zzstar101",
+      "url": "https://github.com/zzstar101"
+    },
     "category": "Automation",
-    "tags": ["Check-in", "Multi-Account", "Serverless"],
+    "tags": [
+      "Check-in",
+      "Multi-Account",
+      "Serverless"
+    ],
     "license": "MIT",
     "status": "active",
     "addedAt": "2026-09-10"
@@ -85,9 +135,16 @@
       "en-US": "All-in-one progression and damage calculator for NTE with fast OCR scanning, gear recommendations, detailed damage and material math with tunable formulas."
     },
     "repository": "https://github.com/Tsukimisaka/NTE-Cassette-Tuner",
-    "author": { "name": "Tsukimisaka", "url": "https://github.com/Tsukimisaka" },
+    "author": {
+      "name": "Tsukimisaka",
+      "url": "https://github.com/Tsukimisaka"
+    },
     "category": "Calculators",
-    "tags": ["Damage", "OCR", "Planner"],
+    "tags": [
+      "Damage",
+      "OCR",
+      "Planner"
+    ],
     "license": "MIT",
     "status": "active",
     "addedAt": "2026-09-10"
@@ -100,9 +157,15 @@
       "en-US": "Gacha (warp) simulator for Neverness to Everness for testing and planning pulls."
     },
     "repository": "https://github.com/ExpiredMilker/NTEGachaSimulator",
-    "author": { "name": "ExpiredMilker", "url": "https://github.com/ExpiredMilker" },
+    "author": {
+      "name": "ExpiredMilker",
+      "url": "https://github.com/ExpiredMilker"
+    },
     "category": "Calculators",
-    "tags": ["Gacha", "Simulator"],
+    "tags": [
+      "Gacha",
+      "Simulator"
+    ],
     "status": "active",
     "addedAt": "2026-09-10"
   },
@@ -114,9 +177,15 @@
       "en-US": "Gacha history analysis and export tool for NTE, supporting multiple banners and tracker-ready JSON output."
     },
     "repository": "https://github.com/Anong0u0/NTE_Gacha_Exporter",
-    "author": { "name": "Anong0u0", "url": "https://github.com/Anong0u0" },
+    "author": {
+      "name": "Anong0u0",
+      "url": "https://github.com/Anong0u0"
+    },
     "category": "Data",
-    "tags": ["Gacha", "Exporter"],
+    "tags": [
+      "Gacha",
+      "Exporter"
+    ],
     "license": "MIT",
     "status": "active",
     "addedAt": "2026-09-10"
@@ -129,9 +198,16 @@
       "en-US": "Wireshark-based traffic analysis and reverse-engineering research, documenting NTE servers, domains, TLS and protocol behavior."
     },
     "repository": "https://github.com/AixLnyt/NTE-Network-Traffic-Analysis",
-    "author": { "name": "AixLnyt", "url": "https://github.com/AixLnyt" },
+    "author": {
+      "name": "AixLnyt",
+      "url": "https://github.com/AixLnyt"
+    },
     "category": "Data",
-    "tags": ["Reverse-Engineering", "Network", "Research"],
+    "tags": [
+      "Reverse-Engineering",
+      "Network",
+      "Research"
+    ],
     "status": "active",
     "addedAt": "2026-09-10"
   },
@@ -143,9 +219,15 @@
       "en-US": "Extracted Neverness to Everness game assets, including UI textures, data tables and localization text."
     },
     "repository": "https://github.com/Waifus-Grace/NTE_Assets",
-    "author": { "name": "Waifus-Grace", "url": "https://github.com/Waifus-Grace" },
+    "author": {
+      "name": "Waifus-Grace",
+      "url": "https://github.com/Waifus-Grace"
+    },
     "category": "Assets",
-    "tags": ["Datamining", "Assets"],
+    "tags": [
+      "Datamining",
+      "Assets"
+    ],
     "status": "active",
     "addedAt": "2026-09-10"
   },
@@ -157,9 +239,16 @@
       "en-US": "Collection of NTE configuration files to improve visuals or performance."
     },
     "repository": "https://github.com/AlteriaX/NTE-Configs",
-    "author": { "name": "AlteriaX", "url": "https://github.com/AlteriaX" },
+    "author": {
+      "name": "AlteriaX",
+      "url": "https://github.com/AlteriaX"
+    },
     "category": "Performance",
-    "tags": ["Config", "Visuals", "Performance"],
+    "tags": [
+      "Config",
+      "Visuals",
+      "Performance"
+    ],
     "status": "active",
     "addedAt": "2026-09-10"
   },
@@ -171,9 +260,16 @@
       "en-US": "NTE chatbot plugin supporting OneBot, QQ, WeChat, KOOK, Telegram, Discord and more."
     },
     "repository": "https://github.com/tyql688/NTEUID",
-    "author": { "name": "tyql688", "url": "https://github.com/tyql688" },
+    "logo": "https://raw.githubusercontent.com/tyql688/NTEUID/main/ICON.png",
+    "author": {
+      "name": "tyql688",
+      "url": "https://github.com/tyql688"
+    },
     "category": "Tools",
-    "tags": ["Bot", "Multi-Platform"],
+    "tags": [
+      "Bot",
+      "Multi-Platform"
+    ],
     "license": "GPL-3.0",
     "status": "active",
     "addedAt": "2026-09-10"
@@ -186,11 +282,20 @@
       "en-US": "Interactive NTE map with teleport points, collectibles, quests, pilgrimage spots, farming routes and progress tracking."
     },
     "repository": "https://github.com/LyraVoid/NTE-Compass",
-    "author": { "name": "LyraVoid", "url": "https://github.com/LyraVoid" },
+    "logo": "https://raw.githubusercontent.com/LyraVoid/NTE-Compass/main/public/favicon.png",
+    "author": {
+      "name": "LyraVoid",
+      "url": "https://github.com/LyraVoid"
+    },
     "category": "Tools",
-    "tags": ["Map", "Web"],
+    "tags": [
+      "Map",
+      "Web"
+    ],
     "license": "AGPL-3.0",
-    "platform": ["Web"],
+    "platform": [
+      "Web"
+    ],
     "status": "active",
     "addedAt": "2026-09-10"
   },
@@ -202,9 +307,17 @@
       "en-US": "NTE utility with full-server gacha analysis, play-time tracking and in-car music, for CN & international servers."
     },
     "repository": "https://github.com/leck995/NTE-Maid",
-    "author": { "name": "leck995", "url": "https://github.com/leck995" },
+    "logo": "https://raw.githubusercontent.com/leck995/NTE-Maid/main/docs/image/icon.png",
+    "author": {
+      "name": "leck995",
+      "url": "https://github.com/leck995"
+    },
     "category": "Tools",
-    "tags": ["Gacha", "Utility", "Cross-Platform"],
+    "tags": [
+      "Gacha",
+      "Utility",
+      "Cross-Platform"
+    ],
     "status": "active",
     "addedAt": "2026-09-10"
   },
@@ -216,10 +329,19 @@
       "en-US": "Server switcher between the official CN server and the Bilibili server for NTE."
     },
     "repository": "https://github.com/VanillaNahida/NTEServerSwitch",
-    "author": { "name": "VanillaNahida", "url": "https://github.com/VanillaNahida" },
+    "logo": "https://raw.githubusercontent.com/VanillaNahida/NTEServerSwitch/main/AppIcon.ico",
+    "author": {
+      "name": "VanillaNahida",
+      "url": "https://github.com/VanillaNahida"
+    },
     "category": "Tools",
-    "tags": ["Utility", "Windows"],
-    "platform": ["Windows"],
+    "tags": [
+      "Utility",
+      "Windows"
+    ],
+    "platform": [
+      "Windows"
+    ],
     "status": "active",
     "addedAt": "2026-09-10"
   },
@@ -231,9 +353,15 @@
       "en-US": "Python recreation of NTE's in-car floating music player."
     },
     "repository": "https://github.com/enenhhh/nte-player",
-    "author": { "name": "enenhhh", "url": "https://github.com/enenhhh" },
+    "author": {
+      "name": "enenhhh",
+      "url": "https://github.com/enenhhh"
+    },
     "category": "Tools",
-    "tags": ["Music", "Utility"],
+    "tags": [
+      "Music",
+      "Utility"
+    ],
     "license": "MIT",
     "status": "active",
     "addedAt": "2026-09-10"
@@ -246,11 +374,21 @@
       "en-US": "Comprehensive database and tool collection for gacha games including NTE, built with Next.js."
     },
     "repository": "https://github.com/bcheung98/irminsul-gg",
-    "author": { "name": "bcheung98", "url": "https://github.com/bcheung98" },
+    "logo": "https://assets.irminsul.gg/v2/_common/logo/logo_red.png",
+    "author": {
+      "name": "bcheung98",
+      "url": "https://github.com/bcheung98"
+    },
     "category": "Tools",
-    "tags": ["Database", "Web", "Multi-Game"],
+    "tags": [
+      "Database",
+      "Web",
+      "Multi-Game"
+    ],
     "license": "MIT",
-    "platform": ["Web"],
+    "platform": [
+      "Web"
+    ],
     "status": "active",
     "addedAt": "2026-09-10"
   },
@@ -262,9 +400,17 @@
       "en-US": "Blender add-on providing automated rigging, toon shaders and material pipelines for gacha models including NTE."
     },
     "repository": "https://github.com/PaoloESAN/gacha-setup",
-    "author": { "name": "PaoloESAN", "url": "https://github.com/PaoloESAN" },
+    "logo": "https://raw.githubusercontent.com/PaoloESAN/gacha-setup/main/docs/public/favicon.svg",
+    "author": {
+      "name": "PaoloESAN",
+      "url": "https://github.com/PaoloESAN"
+    },
     "category": "Tools",
-    "tags": ["Blender", "Modelling", "Multi-Game"],
+    "tags": [
+      "Blender",
+      "Modelling",
+      "Multi-Game"
+    ],
     "license": "GPL-3.0",
     "status": "active",
     "addedAt": "2026-09-10"
@@ -277,11 +423,22 @@
       "en-US": "Feature-rich MIDI-to-keyboard player for in-game instruments across multiple games including NTE, built with C#/WPF."
     },
     "repository": "https://github.com/Jed556/AutoMidiPlayer",
-    "author": { "name": "Jed556", "url": "https://github.com/Jed556" },
+    "logo": "https://raw.githubusercontent.com/Jed556/AutoMidiPlayer/main/public/logo.png",
+    "author": {
+      "name": "Jed556",
+      "url": "https://github.com/Jed556"
+    },
     "category": "Tools",
-    "tags": ["Music", "MIDI", "Multi-Game", "Windows"],
+    "tags": [
+      "Music",
+      "MIDI",
+      "Multi-Game",
+      "Windows"
+    ],
     "license": "GPL-3.0",
-    "platform": ["Windows"],
+    "platform": [
+      "Windows"
+    ],
     "status": "active",
     "addedAt": "2026-09-10"
   },
@@ -293,10 +450,20 @@
       "en-US": "Python automation script collection for Neverness to Everness covering fishing, piano, combat swaps, audio-based dodge and parry, and custom scripts."
     },
     "repository": "https://github.com/nokiruy/Noki-NTE-Auto",
-    "author": { "name": "nokiruy", "url": "https://github.com/nokiruy" },
+    "logo": "https://raw.githubusercontent.com/nokiruy/Noki-NTE-Auto/main/%E5%BC%82%E7%8E%AF%E5%9B%BE%E7%89%87/app_iconNTE.png",
+    "author": {
+      "name": "nokiruy",
+      "url": "https://github.com/nokiruy"
+    },
     "category": "Automation",
-    "tags": ["Automation", "Fishing", "Python"],
-    "platform": ["Windows"],
+    "tags": [
+      "Automation",
+      "Fishing",
+      "Python"
+    ],
+    "platform": [
+      "Windows"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -308,11 +475,21 @@
       "en-US": "OpenCV- and MSS-based auto-fishing assistant for Neverness to Everness with a live control panel, resolution adaptation and tunable PID controls."
     },
     "repository": "https://github.com/Chizukuo/NTE-auto-fish",
-    "author": { "name": "Chizukuo", "url": "https://github.com/Chizukuo" },
+    "logo": "https://raw.githubusercontent.com/Chizukuo/NTE-auto-fish/main/assets/icons/readme_icon.png",
+    "author": {
+      "name": "Chizukuo",
+      "url": "https://github.com/Chizukuo"
+    },
     "category": "Automation",
-    "tags": ["Automation", "Fishing", "Computer-Vision"],
+    "tags": [
+      "Automation",
+      "Fishing",
+      "Computer-Vision"
+    ],
     "license": "MIT",
-    "platform": ["Windows"],
+    "platform": [
+      "Windows"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -324,11 +501,22 @@
       "en-US": "Modular Neverness to Everness hobby automation toolkit whose first module automates the Owner's Selection loop with OCR and window-bound input."
     },
     "repository": "https://github.com/M1ST0R/hethereau-hobbies-tool",
-    "author": { "name": "M1ST0R", "url": "https://github.com/M1ST0R" },
+    "logo": "https://raw.githubusercontent.com/M1ST0R/hethereau-hobbies-tool/main/assets/app_icon.png",
+    "author": {
+      "name": "M1ST0R",
+      "url": "https://github.com/M1ST0R"
+    },
     "category": "Automation",
-    "tags": ["Automation", "OCR", "Cross-Platform"],
+    "tags": [
+      "Automation",
+      "OCR",
+      "Cross-Platform"
+    ],
     "license": "MIT",
-    "platform": ["Windows", "Linux"],
+    "platform": [
+      "Windows",
+      "Linux"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -340,10 +528,19 @@
       "en-US": "Local Neverness to Everness gear optimizer that imports account inventory and searches for the best module, cartridge and set combinations."
     },
     "repository": "https://github.com/Apen/nte-optimizer",
-    "author": { "name": "Apen", "url": "https://github.com/Apen" },
+    "author": {
+      "name": "Apen",
+      "url": "https://github.com/Apen"
+    },
     "category": "Calculators",
-    "tags": ["Calculators", "Gear", "Optimizer"],
-    "platform": ["Windows"],
+    "tags": [
+      "Calculators",
+      "Gear",
+      "Optimizer"
+    ],
+    "platform": [
+      "Windows"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -355,11 +552,24 @@
       "en-US": "Web-based optimizer for the Neverness to Everness cafe mode that finds the highest-earning dish menu and character roster."
     },
     "repository": "https://github.com/Kuro-121/NTE-CafeOptimizer",
-    "website": [{ "provider": "GitHub Pages", "url": "https://kuro-121.github.io/NTE-CafeOptimizer/" }],
-    "author": { "name": "Kuro-121", "url": "https://github.com/Kuro-121" },
+    "website": [
+      {
+        "provider": "GitHub Pages",
+        "url": "https://kuro-121.github.io/NTE-CafeOptimizer/"
+      }
+    ],
+    "author": {
+      "name": "Kuro-121",
+      "url": "https://github.com/Kuro-121"
+    },
     "category": "Calculators",
-    "tags": ["Calculators", "Web"],
-    "platform": ["Web"],
+    "tags": [
+      "Calculators",
+      "Web"
+    ],
+    "platform": [
+      "Web"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -371,10 +581,19 @@
       "en-US": "Browser-based Neverness to Everness team builder that loads xlsx timelines and recalculates team scores and DPS in real time."
     },
     "repository": "https://github.com/AmicBeam/nte_quick_team_up",
-    "author": { "name": "AmicBeam", "url": "https://github.com/AmicBeam" },
+    "author": {
+      "name": "AmicBeam",
+      "url": "https://github.com/AmicBeam"
+    },
     "category": "Calculators",
-    "tags": ["Calculators", "Team", "Web"],
-    "platform": ["Web"],
+    "tags": [
+      "Calculators",
+      "Team",
+      "Web"
+    ],
+    "platform": [
+      "Web"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -386,11 +605,20 @@
       "en-US": "Tampermonkey userscript that summarizes spending, income, profit and ROI for the Neverness to Everness Midnight Cat Kiosk event with charts."
     },
     "repository": "https://github.com/laipz8200/yihuan-cat-kiosk-stats",
-    "author": { "name": "laipz8200", "url": "https://github.com/laipz8200" },
+    "author": {
+      "name": "laipz8200",
+      "url": "https://github.com/laipz8200"
+    },
     "category": "Data",
-    "tags": ["Data", "Userscript", "Statistics"],
+    "tags": [
+      "Data",
+      "Userscript",
+      "Statistics"
+    ],
     "license": "GPL-3.0",
-    "platform": ["Web"],
+    "platform": [
+      "Web"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -402,10 +630,19 @@
       "en-US": "Neverness to Everness radio music replacer that packages custom WAV, MP3 or OGG audio into in-game radio tracks."
     },
     "repository": "https://github.com/Landmark1218/NTE-MusicSwapper",
-    "author": { "name": "Landmark1218", "url": "https://github.com/Landmark1218" },
+    "author": {
+      "name": "Landmark1218",
+      "url": "https://github.com/Landmark1218"
+    },
     "category": "Mods",
-    "tags": ["Mods", "Audio", "Music"],
-    "platform": ["Windows"],
+    "tags": [
+      "Mods",
+      "Audio",
+      "Music"
+    ],
+    "platform": [
+      "Windows"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -417,11 +654,20 @@
       "en-US": "One-click native HDR panel for Neverness to Everness that writes UE HDR settings to Engine.ini with backup, restore and read-only protection."
     },
     "repository": "https://github.com/llg1634/nte-hdr-panel",
-    "author": { "name": "llg1634", "url": "https://github.com/llg1634" },
+    "author": {
+      "name": "llg1634",
+      "url": "https://github.com/llg1634"
+    },
     "category": "Performance",
-    "tags": ["Performance", "HDR", "Graphics"],
+    "tags": [
+      "Performance",
+      "HDR",
+      "Graphics"
+    ],
     "license": "MIT",
-    "platform": ["Windows"],
+    "platform": [
+      "Windows"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -433,12 +679,27 @@
       "en-US": "Local-first Neverness to Everness task tracker that resets daily, weekly and monthly checklists on server time and shows completion progress."
     },
     "repository": "https://github.com/MiPoNianYou/NTE-Flowboard",
-    "website": [{ "provider": "GitHub Pages", "url": "https://miponianyou.github.io/NTE-Flowboard/" }],
-    "author": { "name": "MiPoNianYou", "url": "https://github.com/MiPoNianYou" },
+    "logo": "https://raw.githubusercontent.com/MiPoNianYou/NTE-Flowboard/main/src/assets/nanally-icon.png",
+    "website": [
+      {
+        "provider": "GitHub Pages",
+        "url": "https://miponianyou.github.io/NTE-Flowboard/"
+      }
+    ],
+    "author": {
+      "name": "MiPoNianYou",
+      "url": "https://github.com/MiPoNianYou"
+    },
     "category": "Tools",
-    "tags": ["Tools", "Planner", "PWA"],
+    "tags": [
+      "Tools",
+      "Planner",
+      "PWA"
+    ],
     "license": "MIT",
-    "platform": ["Web"],
+    "platform": [
+      "Web"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -450,10 +711,19 @@
       "en-US": "Toolkit for decrypting and encrypting Neverness to Everness INI configs and tailing game logs in real time."
     },
     "repository": "https://github.com/klukule/HTDecrypt",
-    "author": { "name": "klukule", "url": "https://github.com/klukule" },
+    "author": {
+      "name": "klukule",
+      "url": "https://github.com/klukule"
+    },
     "category": "Tools",
-    "tags": ["Tools", "Decryption", "Logs"],
-    "platform": ["Windows"],
+    "tags": [
+      "Tools",
+      "Decryption",
+      "Logs"
+    ],
+    "platform": [
+      "Windows"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -465,11 +735,21 @@
       "en-US": "Portable multi-game launcher supporting Neverness to Everness with hardlink-based server switching, official updates, gacha records and song requests."
     },
     "repository": "https://github.com/Sparkle0v0Hxl/HuaXiaoLing-Launcher",
-    "author": { "name": "Sparkle0v0Hxl", "url": "https://github.com/Sparkle0v0Hxl" },
+    "logo": "https://raw.githubusercontent.com/Sparkle0v0Hxl/HuaXiaoLing-Launcher/main/build/icon-window-64.png",
+    "author": {
+      "name": "Sparkle0v0Hxl",
+      "url": "https://github.com/Sparkle0v0Hxl"
+    },
     "category": "Tools",
-    "tags": ["Tools", "Launcher", "Multi-Game"],
+    "tags": [
+      "Tools",
+      "Launcher",
+      "Multi-Game"
+    ],
     "license": "MIT",
-    "platform": ["Windows"],
+    "platform": [
+      "Windows"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -481,10 +761,19 @@
       "en-US": "Blender-to-Unreal Engine bridge for Neverness to Everness character modding, covering asset discovery, material replacement, export and pak packaging."
     },
     "repository": "https://github.com/loyal37/NTE-Bridge",
-    "author": { "name": "loyal37", "url": "https://github.com/loyal37" },
+    "author": {
+      "name": "loyal37",
+      "url": "https://github.com/loyal37"
+    },
     "category": "Tools",
-    "tags": ["Tools", "Blender", "Modding"],
-    "platform": ["Windows"],
+    "tags": [
+      "Tools",
+      "Blender",
+      "Modding"
+    ],
+    "platform": [
+      "Windows"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -496,11 +785,21 @@
       "en-US": "Screen-capture tool that keeps the Neverness to Everness minimap arrow pointing up by overlaying a rotated minimap through a click-through window."
     },
     "repository": "https://github.com/xyxyx718/NTEminiMapAlwaysUp",
-    "author": { "name": "xyxyx718", "url": "https://github.com/xyxyx718" },
+    "logo": "https://raw.githubusercontent.com/xyxyx718/NTEminiMapAlwaysUp/main/Assets/app-icon.png",
+    "author": {
+      "name": "xyxyx718",
+      "url": "https://github.com/xyxyx718"
+    },
     "category": "Tools",
-    "tags": ["Tools", "Overlay", "Screen-Reading"],
+    "tags": [
+      "Tools",
+      "Overlay",
+      "Screen-Reading"
+    ],
     "license": "MIT",
-    "platform": ["Windows"],
+    "platform": [
+      "Windows"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -512,10 +811,19 @@
       "en-US": "Converts FModel-exported Spine animations from Neverness to Everness or Wuthering Waves into MP4 and transparent MOV videos."
     },
     "repository": "https://github.com/hakkindayo/Spine2Video-NTE-WuWa",
-    "author": { "name": "hakkindayo", "url": "https://github.com/hakkindayo" },
+    "author": {
+      "name": "hakkindayo",
+      "url": "https://github.com/hakkindayo"
+    },
     "category": "Assets",
-    "tags": ["Assets", "Video", "Spine"],
-    "platform": ["Windows"],
+    "tags": [
+      "Assets",
+      "Video",
+      "Spine"
+    ],
+    "platform": [
+      "Windows"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   },
@@ -527,11 +835,21 @@
       "en-US": "Unofficial Windows launcher for the official Neverness to Everness China client, with game download, verification and updates plus account management, gacha records and daily check-ins."
     },
     "repository": "https://github.com/nerv-base/Oddward",
-    "author": { "name": "nerv-base", "url": "https://github.com/nerv-base" },
+    "logo": "https://raw.githubusercontent.com/nerv-base/Oddward/main/internal/branding/icon.svg",
+    "author": {
+      "name": "nerv-base",
+      "url": "https://github.com/nerv-base"
+    },
     "category": "Tools",
-    "tags": ["Tools", "Launcher", "Gacha"],
+    "tags": [
+      "Tools",
+      "Launcher",
+      "Gacha"
+    ],
     "license": "GPL-3.0",
-    "platform": ["Windows"],
+    "platform": [
+      "Windows"
+    ],
     "status": "active",
     "addedAt": "2026-11-23"
   }

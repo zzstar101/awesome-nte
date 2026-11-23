@@ -10,6 +10,7 @@ const projectSchema = z
     name: z.string().min(1),
     description: lang,
     repository: z.string().url(),
+    logo: z.string().url().optional(),
     website: z
       .array(z.object({ provider: z.string().min(1), url: z.string().url() }))
       .optional(),

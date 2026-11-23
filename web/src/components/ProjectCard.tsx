@@ -12,6 +12,7 @@ import {
 import { CATEGORY_META, formatStars, type EnrichedProject, type Lang } from "@/data/catalog";
 import { COPY, type ViewMode } from "@/i18n/copy";
 import { CrossSparkle } from "./NteGraphics";
+import { ProjectLogo } from "./ProjectLogo";
 
 interface ProjectCardProps {
   project: EnrichedProject;
@@ -69,8 +70,12 @@ export function ProjectCard({
           className="nte-card-body flex cursor-pointer flex-col justify-between gap-3 overflow-hidden rounded-xl p-4 sm:flex-row sm:items-center"
         >
           <div className="nte-card-spotlight" aria-hidden="true" />
-          <div className="relative z-10 min-w-0 flex-1 space-y-1.5">
-            <div className="flex flex-wrap items-center gap-2">
+          <div className="relative z-10 flex min-w-0 flex-1 items-start gap-3">
+            <div className="pt-0.5">
+              <ProjectLogo project={project} size="sm" interactive />
+            </div>
+            <div className="min-w-0 flex-1 space-y-1.5">
+              <div className="flex flex-wrap items-center gap-2">
               <span className="inline-flex items-center gap-1.5 font-mono-code text-[11px] font-bold text-[var(--nte-ink-muted)]">
                 <span
                   className="nte-lock-dot h-2 w-2 rounded-full border border-[#171824] transition-transform duration-200 group-hover:scale-110"
@@ -148,6 +153,7 @@ export function ProjectCard({
                   </button>
                 );
               })}
+            </div>
             </div>
           </div>
 
@@ -283,22 +289,25 @@ export function ProjectCard({
 
         {/* Main Content */}
         <div className="relative z-10 flex flex-1 flex-col px-4 pt-1 pb-3.5">
-          {/* Repo Name */}
-          <a
-            href={project.repository}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={(e) => e.stopPropagation()}
-            className="group/title block w-fit max-w-full"
-          >
-            <div className="truncate font-mono-code text-[11px] font-semibold text-[var(--nte-ink-muted)]">
-              {project.owner} /
-            </div>
-            <h2 className="mt-0.5 flex items-center gap-1 font-display text-lg leading-snug font-bold tracking-tight text-[var(--nte-ink)] transition-colors duration-200 group-hover:text-[#FF2E7E]">
-              <span className="truncate">{project.repoName}</span>
-              <ArrowUpRight className="h-4 w-4 shrink-0 -translate-x-1 opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:-translate-y-0.5 group-hover:opacity-100" />
-            </h2>
-          </a>
+          {/* Logo Sticker + Repo Name Lockup */}
+          <div className="flex items-center gap-3">
+            <ProjectLogo project={project} size="md" interactive />
+            <a
+              href={project.repository}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="group/title block min-w-0 flex-1"
+            >
+              <div className="truncate font-mono-code text-[11px] font-semibold text-[var(--nte-ink-muted)]">
+                {project.owner} /
+              </div>
+              <h2 className="mt-0.5 flex items-center gap-1 font-display text-lg leading-snug font-bold tracking-tight text-[var(--nte-ink)] transition-colors duration-200 group-hover:text-[#FF2E7E]">
+                <span className="truncate">{project.repoName}</span>
+                <ArrowUpRight className="h-4 w-4 shrink-0 -translate-x-1 opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:-translate-y-0.5 group-hover:opacity-100" />
+              </h2>
+            </a>
+          </div>
 
           {/* Description */}
           <p className="mt-2.5 flex-1 text-[13.5px] leading-relaxed text-[var(--nte-ink-soft)]">

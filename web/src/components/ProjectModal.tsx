@@ -22,6 +22,7 @@ import {
   type Lang,
 } from "@/data/catalog";
 import { COPY } from "@/i18n/copy";
+import { ProjectLogo } from "./ProjectLogo";
 
 interface ProjectModalProps {
   project: EnrichedProject | null;
@@ -156,16 +157,19 @@ export function ProjectModal({
         <div className="space-y-5 p-5 sm:p-6">
           {/* Header */}
           <div className="flex flex-wrap items-start justify-between gap-4">
-            <div>
-              <div className="font-mono-code text-xs font-bold text-[var(--nte-ink-muted)]">
-                {project.owner} /
+            <div className="flex min-w-0 items-center gap-3.5">
+              <ProjectLogo project={project} size="lg" />
+              <div className="min-w-0">
+                <div className="truncate font-mono-code text-xs font-bold text-[var(--nte-ink-muted)]">
+                  {project.owner} /
+                </div>
+                <h3
+                  id="case-file-title"
+                  className="mt-0.5 truncate font-display text-2xl font-bold tracking-tight text-[var(--nte-ink)] sm:text-3xl"
+                >
+                  {project.repoName}
+                </h3>
               </div>
-              <h3
-                id="case-file-title"
-                className="mt-0.5 font-display text-2xl font-bold tracking-tight text-[var(--nte-ink)] sm:text-3xl"
-              >
-                {project.repoName}
-              </h3>
             </div>
 
             <div className="flex items-center gap-2">

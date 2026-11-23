@@ -18,6 +18,7 @@ export interface Project {
   name: string;
   description: Record<Lang, string>;
   repository: string;
+  logo?: string;
   website?: { provider: string; url: string }[];
   author?: { name: string; url?: string };
   category: CategoryKey;
