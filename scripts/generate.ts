@@ -68,7 +68,7 @@ for (const file of ["README.md", "README.en.md"]) {
   const end = "<!-- PROJECTS_COUNT_END -->";
   const re = new RegExp(`${start}[^]*?${end}`);
   if (re.test(content)) {
-    const img = `<img src="https://img.shields.io/badge/projects-${count}-blue?label=Projects" alt="Projects">`;
+    const img = `<img src="https://img.shields.io/badge/projects-${count}-FFD92E?label=Projects&labelColor=171824" alt="Projects">`;
     content = content.replace(re, `${start}\n  ${img}\n  ${end}`);
     writeFileSync(path, content);
   }

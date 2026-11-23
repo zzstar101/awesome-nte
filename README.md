@@ -5,10 +5,13 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
+  <a href="https://github.com/sindresorhus/awesome"><img src="assets/badge.svg" alt="Awesome NTE"></a>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-3CF0DE?labelColor=171824" alt="License"></a>
   <!-- PROJECTS_COUNT_START -->
-  <img src="https://img.shields.io/badge/projects-26-blue?label=Projects" alt="Projects">
+  <img src="https://img.shields.io/badge/projects-26-FFD92E?label=Projects&labelColor=171824" alt="Projects">
   <!-- PROJECTS_COUNT_END -->
 </p>
 
@@ -26,6 +29,7 @@
 - [列表](#列表)
 - [收录标准](#收录标准)
 - [贡献](#贡献)
+- [徽章](#徽章)
 - [开发与维护](#开发与维护)
 - [未来计划](#未来计划)
 - [免责声明](#免责声明)
@@ -52,6 +56,24 @@
 ## 贡献
 
 欢迎通过 Issue 或 PR 收录新项目、修正描述、提出建议。详细步骤见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+
+## 徽章
+
+如果你的开源项目已被 **awesome-nte** 收录，欢迎在项目 README 中展示以下异环主题徽章：
+
+[![Listed in Awesome NTE](assets/badge-listed.svg)](https://github.com/zzstar101/awesome-nte)
+
+```markdown
+[![Listed in Awesome NTE](https://raw.githubusercontent.com/zzstar101/awesome-nte/main/assets/badge-listed.svg)](https://github.com/zzstar101/awesome-nte)
+```
+
+精简版：
+
+[![Awesome NTE](assets/badge.svg)](https://github.com/zzstar101/awesome-nte)
+
+```markdown
+[![Awesome NTE](https://raw.githubusercontent.com/zzstar101/awesome-nte/main/assets/badge.svg)](https://github.com/zzstar101/awesome-nte)
+```
 
 ## 开发与维护
 

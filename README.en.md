@@ -5,10 +5,13 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
+  <a href="https://github.com/sindresorhus/awesome"><img src="assets/badge.svg" alt="Awesome NTE"></a>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-3CF0DE?labelColor=171824" alt="License"></a>
   <!-- PROJECTS_COUNT_START -->
-  <img src="https://img.shields.io/badge/projects-26-blue?label=Projects" alt="Projects">
+  <img src="https://img.shields.io/badge/projects-26-FFD92E?label=Projects&labelColor=171824" alt="Projects">
   <!-- PROJECTS_COUNT_END -->
 </p>
 
@@ -26,6 +29,7 @@ Full list: **[LIST.en.md](./LIST.en.md)** · Chinese: **[LIST.md](./LIST.md)**.
 - [List](#list)
 - [Inclusion criteria](#inclusion-criteria)
 - [Contributing](#contributing)
+- [Badge](#badge)
 - [Development](#development)
 - [Roadmap](#roadmap)
 - [Disclaimer](#disclaimer)
@@ -52,6 +56,24 @@ Lists are also **de-duplicated** per functional area: only one representative pr
 ## Contributing
 
 Open-source your project, or found a missing one? Issues and PRs are welcome. See [CONTRIBUTING.md](./CONTRIBUTING.en.md) for details.
+
+## Badge
+
+If your open-source project is listed in **awesome-nte**, feel free to display this NTE-themed badge in your README:
+
+[![Listed in Awesome NTE](assets/badge-listed.svg)](https://github.com/zzstar101/awesome-nte)
+
+```markdown
+[![Listed in Awesome NTE](https://raw.githubusercontent.com/zzstar101/awesome-nte/main/assets/badge-listed.svg)](https://github.com/zzstar101/awesome-nte)
+```
+
+Compact version:
+
+[![Awesome NTE](assets/badge.svg)](https://github.com/zzstar101/awesome-nte)
+
+```markdown
+[![Awesome NTE](https://raw.githubusercontent.com/zzstar101/awesome-nte/main/assets/badge.svg)](https://github.com/zzstar101/awesome-nte)
+```
 
 ## Development
 
