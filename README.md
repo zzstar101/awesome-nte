@@ -1,7 +1,9 @@
 <div align="center">
-  <img src="assets/icon.png" width="140" height="140" alt="Neverness to Everness">
-  <p style="font-size: 40px; font-weight: 800; letter-spacing: 1px; margin: 12px 0 4px;">Awesome 异环</p>
-  <p style="color:#59636e; margin: 0 0 16px;">社区开源项目索引 · Community Open-Source Index</p>
+  <a href="https://zzstar101.github.io/awesome-nte/">
+    <img src="assets/logo.svg" width="132" height="132" alt="Awesome NTE">
+  </a>
+  <p style="font-size: 38px; font-weight: 800; letter-spacing: 1px; margin: 12px 0 4px;">Awesome 异环</p>
+  <p style="color:#59636e; margin: 0 0 16px;">海特洛市社区第三方开源项目档案库 · Neverness to Everness Open-Source Index</p>
 </div>
 
 <p align="center">
@@ -9,6 +11,7 @@
 </p>
 
 <p align="center">
+  <a href="https://zzstar101.github.io/awesome-nte/"><img src="https://img.shields.io/badge/Website-zzstar101.github.io/awesome--nte-FF2E7E?labelColor=171824" alt="Online Website"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-3CF0DE?labelColor=171824" alt="License"></a>
   <!-- PROJECTS_COUNT_START -->
   <img src="https://img.shields.io/badge/projects-35-FFD92E?label=Projects&labelColor=171824" alt="Projects">
@@ -16,50 +19,74 @@
 </p>
 
 <p align="center">
-  简体中文 ·
+  <strong>简体中文</strong> ·
   <a href="./README.en.md">English</a>
+  &nbsp;|&nbsp;
+  <a href="https://zzstar101.github.io/awesome-nte/">在线网站</a> ·
+  <a href="./LIST.md">完整列表</a> ·
+  <a href="#收录标准">收录标准</a> ·
+  <a href="./CONTRIBUTING.md">贡献指南</a>
 </p>
 
-> 《异环》（Neverness to Everness，NTE）社区第三方开源项目索引。收录 **GitHub 开源仓库**，涵盖自动化、数值计算、数据分析、资源挖掘、Mod、性能优化与工具集成。
+> 《异环》（*Neverness to Everness*，NTE）社区第三方开源项目索引。精选 **GitHub 开源仓库**，覆盖读屏自动化、数值计算与配装、数据分析、资源挖掘、Mod 与外观、性能优化及周边实用工具；严格遵守零注入、无私服红线。
 
-完整列表见 **[LIST.md](./LIST.md)** · 英文版见 **[LIST.en.md](./LIST.en.md)**。
+---
 
-## Contents
+## 在线档案站
 
-- [列表](#列表)
-- [收录标准](#收录标准)
-- [贡献](#贡献)
-- [徽章](#徽章)
-- [开发与维护](#开发与维护)
-- [未来计划](#未来计划)
-- [免责声明](#免责声明)
+推荐直接访问在线交互网站浏览与检索全部收录项目：
 
-## 列表
+**👉 [https://zzstar101.github.io/awesome-nte/](https://zzstar101.github.io/awesome-nte/)**
 
-见 **[LIST.md](./LIST.md)**。
+- **异环视觉主题**：白昼贴纸杂志 / 极夜海特洛双主题切换，中 / 英双语实时切换。
+- **高效多维检索**：支持 `/` 或 `⌘K` 全字段即时搜索，按 7 大分类、平台、热门标签、含在线文档与本期上新组合筛选。
+- **排序与探索**：支持策展精选 / Star 热度 / 最新收录 / 名称排序、卡片与档案列表双视图、随机逛逛与详情弹窗连续翻阅；筛选状态自动同步 URL 便于分享。
+- **每日自动同步**：由 `data/projects.json` 与 `data/stars.json` 驱动，每次更新与每日 Star 同步都会通过 GitHub Pages 自动部署。
 
-> 列表由 `data/projects.json` 生成，请勿直接编辑 LIST 文件。
+偏好纯文本阅读？完整 Markdown 列表见 **[LIST.md](./LIST.md)**（英文版 **[LIST.en.md](./LIST.en.md)**）。
+
+> `LIST.md` 与在线网站均以 `data/projects.json` 为单一数据源自动构建，请勿手动编辑 `LIST.*`。
+
+---
+
+## 分类速览
+
+| 分类 | 涵盖方向 | 快速跳转 |
+| :--- | :--- | :--- |
+| **自动化与挂机** | 读屏识别、日常签到、自动采集、钓鱼与生活玩法辅助（无注入） | [查看列表](./LIST.md#自动化与挂机) |
+| **数值计算与规划** | 驱动养成、装备优化、伤害计算、抽卡模拟、配队与咖舍规划 | [查看列表](./LIST.md#数值计算与规划) |
+| **数据与统计** | 抽卡记录分析与导出、活动收益统计、网络流量研究 | [查看列表](./LIST.md#数据与统计) |
+| **资源与数据挖掘** | 解包素材、Blender 模型导入器、Spine 动画批量转码 | [查看列表](./LIST.md#资源与数据挖掘) |
+| **Mod 与外观** | Mod 管理器、BAGEL 照片自定义、车载电台换歌 | [查看列表](./LIST.md#mod-与外观) |
+| **性能与画面** | 画质与性能配置合集、UE 原生 HDR 一键开启面板 | [查看列表](./LIST.md#性能与画面) |
+| **工具与集成** | 互动地图、启动器、聊天机器人、车载播放器、小地图覆盖与插件桥 | [查看列表](./LIST.md#工具与集成) |
+
+---
 
 ## 收录标准
 
-本项目收录与《异环》相关的、**有价值**的开源项目。判断一个项目是否值得收录，遵循以下硬性规则：
+本项目只收录与《异环》相关的、**有实际价值**的开源项目，遵循以下 4 条硬性红线：
 
-- **开源**：有公开可读源码；纯二进制分发、无源码的不收。
-- **相关**：直接面向 NTE，或明确声明支持 NTE 的多游戏工具。
-- **可用**：有 README，能说清用途与用法；空壳/占位仓库不收。
-- **合规**：不修改游戏进程、内存或网络。**判定标准 = 是否注入。** 读屏 + 模拟输入（如 MaaNTE、ok-nte）在收列范围；作弊、内存修改、ESP、传送、加速、私服模拟器一律不收。
+1. **开源透明**：必须有公开可读的源代码；纯二进制闭源分发、无源码壳仓库不收。
+2. **直接相关**：直接面向 NTE 开发，或明确声明原生支持 NTE 的成熟多游戏工具。
+3. **可用有文档**：具备能说清用途与用法的 README；空壳/占位仓库不收。
+4. **合规零注入**：不修改游戏进程、内存或网络。**判定标准 = 是否注入。** 读屏 + 模拟输入（如 MaaNTE、ok-nte）允许收录；作弊、内存修改、ESP、传送、加速、私服模拟器一律不收。
 
-同时对同一功能域**去重**：同类只保留一个代表项目，除非被淘汰者有明显差异化。
+同时对同一功能域做**去重**：同类只保留代表项目，除非备选方案有明确差异化。
 
-**去重与排序原则**：功能覆盖面 > 维护活跃度与文档完整度 > 跨平台/跨游戏支持 > star 数。
+**去重与排序优先级**：功能覆盖面 > 维护活跃度与文档完整度 > 跨平台 / 多游戏支持 > Star 数。
+
+---
 
 ## 贡献
 
-欢迎通过 Issue 或 PR 收录新项目、修正描述、提出建议。详细步骤见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+欢迎通过 [Issue](https://github.com/zzstar101/awesome-nte/issues/new) 或 Pull Request 提交新项目、修正描述、反馈失效链接或提出建议。新增条目只需维护 `data/projects.json` 并运行校验生成命令，详细说明见 **[CONTRIBUTING.md](./CONTRIBUTING.md)**。
 
-## 徽章
+---
 
-如果你的开源项目已被 **awesome-nte** 收录，欢迎在项目 README 中展示以下异环主题徽章：
+## 异环主题徽章
+
+如果你的开源项目已被 **awesome-nte** 收录，欢迎在仓库 README 中展示异环贴纸徽章（也可在在线网站顶栏「主题徽章」中一键复制）：
 
 [![Listed in Awesome NTE](assets/badge-listed.svg)](https://github.com/zzstar101/awesome-nte)
 
@@ -75,23 +102,40 @@
 [![Awesome NTE](https://raw.githubusercontent.com/zzstar101/awesome-nte/main/assets/badge.svg)](https://github.com/zzstar101/awesome-nte)
 ```
 
+---
+
 ## 开发与维护
 
+项目基于 **Bun** 管理数据脚本与静态站点（网站源码位于 `web/`）：
+
 ```bash
-bun install        # 安装依赖
-bun run check      # 校验 data/projects.json
-bun run generate   # 由 data/projects.json 生成 LIST.md / LIST.en.md
-bun run stars      # 抓取 star 快照到 data/stars.json
+bun install        # 安装根脚本依赖
+bun run check      # 校验 data/projects.json 结构与规范
+bun run generate   # 由 data/projects.json 生成 LIST.md / LIST.en.md 并同步计数徽章
+bun run stars      # 抓取 GitHub Star 快照到 data/stars.json
 bun run add        # 交互式新增项目
+
+# 在线网站本地开发与构建
+(cd web && bun install)
+bun run web:dev    # 启动本地预览（http://127.0.0.1:4173）
+bun run web:build  # TypeScript 检查 + 生产构建到 web/dist
 ```
 
-CI 会在每次 PR 里校验数据并确保生成物最新；`stars` 每日自动更新；`links` 每周检查死链。
+自动化工作流：
+- **CI**（`.github/workflows/ci.yml`）：PR 与推送时校验数据并确保 `LIST.*` 保持最新。
+- **Stars**（`.github/workflows/stars.yml`）：每日定时刷新 `data/stars.json`。
+- **Links**（`.github/workflows/links.yml`）：每周自动巡检死链。
+- **Deploy Pages**（`.github/workflows/deploy.yml`）：推送 `main` 或每日 Star 更新完成后自动构建并发布在线网站。
 
-## 未来计划
+---
 
-- [ ] 补充项目元数据（star 排序、维护状态筛选、语言/平台维度）。
-- [ ] 打造检索更友好的数据展示（网站/可交互视图）。
-- [ ] 完善国际化，持续对齐中英描述。
+## 路线图
+
+- [x] 上线异环风格在线档案网站（双语切换、双主题、多维筛选、Star 排序与详情档案）。
+- [ ] 扩展 `stars.json` 元数据（最近提交时间、主语言、归档状态），进一步增强活跃度筛选。
+- [ ] 持续跟进社区新项目，定期审计合规性与中英描述对齐。
+
+---
 
 ## 免责声明
 

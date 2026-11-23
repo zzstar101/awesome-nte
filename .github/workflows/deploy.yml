@@ -1,0 +1,57 @@
+name: Deploy Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_run:
+    workflows: ["Update stars"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: oven-sh/setup-bun@v2
+      - name: Validate root data
+        run: |
+          bun install --frozen-lockfile
+          bun run check
+      - name: Install web dependencies
+        working-directory: web
+        run: bun install --frozen-lockfile
+      - name: Build web archive
+        working-directory: web
+        run: bun run build
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

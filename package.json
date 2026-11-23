@@ -8,7 +8,10 @@
     "check": "bun run scripts/check.ts",
     "generate": "bun run scripts/generate.ts",
     "stars": "bun run scripts/stars.ts",
-    "add": "bun run scripts/add.ts"
+    "add": "bun run scripts/add.ts",
+    "web:dev": "bun run --cwd web dev",
+    "web:build": "bun run --cwd web build",
+    "web:preview": "bun run --cwd web preview"
   },
   "dependencies": {
     "zod": "^4.2.0"

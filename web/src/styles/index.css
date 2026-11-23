@@ -1,0 +1,564 @@
+@import "tailwindcss";
+
+:root,
+[data-theme="day"] {
+  --nte-bg: #f6f3ea;
+  --nte-bg-grid: rgba(23, 24, 36, 0.055);
+  --nte-surface: #ffffff;
+  --nte-surface-alt: #efebe0;
+  --nte-surface-muted: #faf8f2;
+  --nte-ink: #171824;
+  --nte-ink-soft: #43475c;
+  --nte-ink-muted: #6c7188;
+  --nte-border: #171824;
+  --nte-border-subtle: rgba(23, 24, 36, 0.14);
+  --nte-shadow: #171824;
+  --nte-nav-bg: rgba(246, 243, 234, 0.88);
+
+  --nte-yellow: #ffd92e;
+  --nte-mint: #17e2ce;
+  --nte-mint-bright: #3cf0de;
+  --nte-pink: #ff2e7e;
+  --nte-violet: #8b5cf6;
+  --nte-orange: #ff6b2b;
+  --nte-lime: #a6f72e;
+  --nte-sky: #38bdf8;
+
+  --nte-card-shadow: 4px 4px 0 0 var(--nte-shadow);
+  --nte-card-shadow-hover: 7px 7px 0 0 var(--nte-shadow);
+  --nte-pill-shadow: 2.5px 2.5px 0 0 var(--nte-shadow);
+}
+
+[data-theme="night"] {
+  --nte-bg: #0f111a;
+  --nte-bg-grid: rgba(60, 240, 222, 0.065);
+  --nte-surface: #171a28;
+  --nte-surface-alt: #202538;
+  --nte-surface-muted: #131622;
+  --nte-ink: #f4f6fc;
+  --nte-ink-soft: #c3c8dd;
+  --nte-ink-muted: #8b92ae;
+  --nte-border: #333a56;
+  --nte-border-subtle: rgba(255, 255, 255, 0.11);
+  --nte-shadow: #06070c;
+  --nte-nav-bg: rgba(15, 17, 26, 0.86);
+
+  --nte-yellow: #ffd92e;
+  --nte-mint: #17e2ce;
+  --nte-mint-bright: #3cf0de;
+  --nte-pink: #ff2e7e;
+  --nte-violet: #a78bfa;
+  --nte-orange: #ff7a3d;
+  --nte-lime: #b5ff3b;
+  --nte-sky: #38bdf8;
+
+  --nte-card-shadow: 4px 4px 0 0 #05060b;
+  --nte-card-shadow-hover: 6px 6px 0 0 #17e2ce;
+  --nte-pill-shadow: 2.5px 2.5px 0 0 #05060b;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family:
+      "Space Grotesk", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+      "Noto Sans SC", system-ui, -apple-system, sans-serif;
+    background-color: var(--nte-bg);
+    color: var(--nte-ink);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--nte-bg);
+    background-image: radial-gradient(var(--nte-bg-grid) 1.25px, transparent 1.25px);
+    background-size: 20px 20px;
+    color: var(--nte-ink);
+    transition:
+      background-color 200ms ease,
+      color 200ms ease;
+  }
+
+  ::selection {
+    background-color: var(--nte-yellow);
+    color: #171824;
+  }
+}
+
+.font-display {
+  font-family:
+    "Chakra Petch", "Space Grotesk", "PingFang SC", "Microsoft YaHei",
+    sans-serif;
+}
+
+.font-mono-code {
+  font-family:
+    "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    monospace;
+}
+
+/* Stationary Hit-Zone Wrapper (prevents edge hover flicker & animation conflicts) */
+.nte-card-slot {
+  --card-accent: var(--nte-mint);
+  --mx: 50%;
+  --my: 24%;
+  position: relative;
+}
+
+/* Dedicated Breathing Ambient Aura behind the card (always pulsing softly, fades in cleanly on hover) */
+.nte-card-aura {
+  pointer-events: none;
+  position: absolute;
+  inset: 2px;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 320ms ease;
+}
+
+.nte-card-aura::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: inherit;
+  background: var(--card-accent);
+  filter: blur(18px);
+  opacity: 0.32;
+  animation: nte-aura-breathe 2.8s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+[data-theme="night"] .nte-card-aura::before {
+  filter: blur(22px);
+  opacity: 0.45;
+}
+
+.nte-card-slot:hover .nte-card-aura {
+  opacity: 1;
+}
+
+@keyframes nte-aura-breathe {
+  0%,
+  100% {
+    opacity: 0.24;
+    transform: scale(0.97);
+  }
+  50% {
+    opacity: 0.52;
+    transform: scale(1.03);
+  }
+}
+
+/* Moving Visual Sticker Card Surface (pure smooth transition, never fights animations) */
+.nte-card-body {
+  position: relative;
+  z-index: 1;
+  background-color: var(--nte-surface);
+  border: 2px solid var(--nte-border);
+  box-shadow: var(--nte-card-shadow);
+  transition:
+    transform 280ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 280ms cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 220ms ease;
+  will-change: transform;
+}
+
+.nte-card-slot:hover .nte-card-body {
+  transform: translate3d(-3.5px, -4.5px, 0);
+  box-shadow: 7px 7.5px 0 0 var(--nte-shadow);
+}
+
+[data-theme="night"] .nte-card-slot:hover .nte-card-body {
+  border-color: var(--card-accent);
+  box-shadow: 6px 6.5px 0 0 var(--card-accent);
+}
+
+/* Cursor-tracking translucent energy spotlight inside hovered card */
+.nte-card-spotlight {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  background: radial-gradient(
+    260px circle at var(--mx) var(--my),
+    color-mix(in srgb, var(--card-accent) 19%, transparent) 0%,
+    color-mix(in srgb, var(--card-accent) 6%, transparent) 44%,
+    transparent 74%
+  );
+  transition: opacity 320ms ease;
+}
+
+[data-theme="night"] .nte-card-spotlight {
+  background: radial-gradient(
+    280px circle at var(--mx) var(--my),
+    color-mix(in srgb, var(--card-accent) 26%, transparent) 0%,
+    color-mix(in srgb, var(--card-accent) 8%, transparent) 46%,
+    transparent 75%
+  );
+}
+
+.nte-card-slot:hover .nte-card-spotlight {
+  opacity: 1;
+}
+
+/* Target-lock breathing dot inside hovered card */
+@keyframes nte-lock-breathe {
+  0%,
+  100% {
+    transform: scale(0.92);
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--card-accent) 75%, transparent);
+  }
+  50% {
+    transform: scale(1.18);
+    box-shadow: 0 0 0 5px color-mix(in srgb, var(--card-accent) 0%, transparent);
+  }
+}
+
+.nte-card-slot:hover .nte-lock-dot {
+  animation: nte-lock-breathe 1.8s ease-in-out infinite;
+}
+
+/* Tactile Sticker Button */
+.nte-btn {
+  border: 2px solid var(--nte-border);
+  box-shadow: var(--nte-pill-shadow);
+  transition:
+    transform 140ms cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 140ms cubic-bezier(0.22, 1, 0.36, 1),
+    background-color 140ms ease,
+    color 140ms ease;
+}
+
+.nte-btn:hover {
+  transform: translate(-1.5px, -1.5px);
+  box-shadow: 4px 4px 0 0 var(--nte-shadow);
+}
+
+.nte-btn:active {
+  transform: translate(1.5px, 1.5px);
+  box-shadow: 1px 1px 0 0 var(--nte-shadow);
+}
+
+[data-theme="night"] .nte-btn:hover {
+  box-shadow: 3.5px 3.5px 0 0 var(--nte-mint);
+}
+
+/* Halftone dot backgrounds */
+.nte-halftone-light {
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.42) 1.2px,
+    transparent 1.2px
+  );
+  background-size: 7px 7px;
+}
+
+.nte-halftone-dark {
+  background-image: radial-gradient(
+    rgba(23, 24, 36, 0.16) 1.15px,
+    transparent 1.15px
+  );
+  background-size: 7px 7px;
+}
+
+.nte-halftone-mint {
+  background-image: radial-gradient(
+    rgba(23, 226, 206, 0.24) 1.25px,
+    transparent 1.25px
+  );
+  background-size: 9px 9px;
+}
+
+/* Diagonal racing stripe pattern */
+.nte-stripe-bar {
+  background: repeating-linear-gradient(
+    -58deg,
+    #ffd92e 0 18px,
+    #171824 18px 23px,
+    #17e2ce 23px 41px,
+    #171824 41px 46px,
+    #ff2e7e 46px 56px,
+    #171824 56px 61px
+  );
+}
+
+/* Card top bar diagonal glint sweep on hover */
+.nte-glint-bar {
+  position: relative;
+  overflow: hidden;
+}
+
+.nte-glint-bar::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 45%;
+  background: linear-gradient(
+    105deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.78) 50%,
+    transparent 100%
+  );
+  transform: translateX(-160%);
+  pointer-events: none;
+}
+
+.group:hover .nte-glint-bar::after {
+  animation: nte-glint-sweep 650ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes nte-glint-sweep {
+  0% {
+    transform: translateX(-160%);
+  }
+  100% {
+    transform: translateX(340%);
+  }
+}
+
+/* Hero & Card Kinetic Entrances */
+@keyframes nte-hero-enter {
+  0% {
+    opacity: 0;
+    transform: translateY(14px) scale(0.99);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.nte-hero-enter {
+  animation: nte-hero-enter 440ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes nte-card-enter {
+  0% {
+    opacity: 0;
+    transform: translateY(12px) scale(0.985);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Use backwards-only fill so completed entrance never locks :hover transform! */
+.nte-card-enter {
+  animation: nte-card-enter 320ms cubic-bezier(0.22, 1, 0.36, 1) backwards;
+}
+
+/* Modal Pop-Spring Animations */
+@keyframes nte-backdrop-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes nte-modal-pop {
+  0% {
+    opacity: 0;
+    transform: translateY(14px) scale(0.94);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.nte-backdrop-in {
+  animation: nte-backdrop-in 180ms ease-out both;
+}
+
+.nte-modal-pop {
+  animation: nte-modal-pop 260ms cubic-bezier(0.22, 1.18, 0.36, 1) both;
+}
+
+/* Category Banner Slide */
+@keyframes nte-banner-slide {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.nte-banner-slide {
+  animation: nte-banner-slide 240ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Alive Mint Ghost-Cat Animations */
+@keyframes nte-cat-float {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(-3deg);
+  }
+  50% {
+    transform: translateY(-4px) rotate(-1.5deg);
+  }
+}
+
+.nte-cat-float {
+  animation: nte-cat-float 4.2s ease-in-out infinite;
+}
+
+.nte-cat-float:hover {
+  animation-play-state: paused;
+}
+
+@keyframes nte-cat-blink {
+  0%,
+  91%,
+  100% {
+    transform: scaleY(1);
+  }
+  95% {
+    transform: scaleY(0.12);
+  }
+}
+
+.nte-cat-eye {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: nte-cat-blink 4.6s ease-in-out infinite;
+}
+
+@keyframes nte-sparkle-twinkle {
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.18) rotate(10deg);
+    opacity: 0.85;
+  }
+}
+
+.nte-sparkle-twinkle {
+  animation: nte-sparkle-twinkle 2.8s ease-in-out infinite;
+}
+
+@keyframes nte-radar-ping {
+  0% {
+    transform: scale(0.92);
+    opacity: 0.85;
+  }
+  100% {
+    transform: scale(1.42);
+    opacity: 0;
+  }
+}
+
+.nte-radar-ping {
+  animation: nte-radar-ping 620ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes nte-pop-bounce {
+  0% {
+    transform: scale(1) rotate(-3deg);
+  }
+  30% {
+    transform: scale(1.14) rotate(-9deg);
+  }
+  65% {
+    transform: scale(0.95) rotate(4deg);
+  }
+  100% {
+    transform: scale(1) rotate(-3deg);
+  }
+}
+
+.nte-cat-bounce {
+  animation: nte-pop-bounce 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes nte-bubble-in {
+  0% {
+    opacity: 0;
+    transform: translateY(4px) scale(0.94);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.nte-bubble-in {
+  animation: nte-bubble-in 200ms cubic-bezier(0.22, 1.2, 0.36, 1) both;
+}
+
+/* Ticker marquee */
+@keyframes nte-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.nte-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: nte-marquee 34s linear infinite;
+}
+
+.nte-marquee-wrap:hover .nte-marquee-track {
+  animation-play-state: paused;
+}
+
+/* Live pulsing status dot */
+@keyframes nte-pulse-dot {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(23, 226, 206, 0.7);
+  }
+  60% {
+    box-shadow: 0 0 0 6px rgba(23, 226, 206, 0);
+  }
+}
+
+.nte-pulse-dot {
+  animation: nte-pulse-dot 2.2s ease-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nte-marquee-track,
+  .nte-hero-enter,
+  .nte-card-enter,
+  .nte-backdrop-in,
+  .nte-modal-pop,
+  .nte-banner-slide,
+  .nte-cat-float,
+  .nte-cat-eye,
+  .nte-sparkle-twinkle,
+  .nte-radar-ping,
+  .nte-cat-bounce,
+  .nte-bubble-in,
+  .nte-pulse-dot,
+  .nte-card-aura::before,
+  .nte-card-slot:hover .nte-lock-dot {
+    animation: none !important;
+  }
+  .nte-card-body,
+  .nte-card-aura,
+  .nte-card-spotlight,
+  .nte-btn {
+    transition: none !important;
+  }
+}
+
+/* Hide scrollbars cleanly for horizontal pill strips */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
