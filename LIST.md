@@ -72,3 +72,4 @@
 - [Sparkle0v0Hxl/HuaXiaoLing-Launcher](https://github.com/Sparkle0v0Hxl/HuaXiaoLing-Launcher) - 支持异环的多游戏便携启动器，提供多服务器硬链接切换、官方更新、抽卡记录与弹幕点歌。(MIT · Windows)
 - [loyal37/NTE-Bridge](https://github.com/loyal37/NTE-Bridge) - 连接 Blender 与虚幻引擎的异环角色 Mod 制作桥，支持资产识别、材质替换、导出与 pak 打包。(Windows)
 - [xyxyx718/NTEminiMapAlwaysUp](https://github.com/xyxyx718/NTEminiMapAlwaysUp) - 让异环小地图箭头始终朝上的屏幕捕获工具，通过鼠标穿透覆盖层显示旋转后的小地图。(MIT · Windows)
+- [nerv-base/Oddward](https://github.com/nerv-base/Oddward) - 面向《异环》国服官方渠道的 Windows 非官方启动器，支持游戏下载、校验与更新，并集成账号管理、抽卡记录和每日签到。(GPL-3.0 · Windows)

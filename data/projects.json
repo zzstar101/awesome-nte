@@ -624,5 +624,21 @@
     "platform": ["Windows"],
     "status": "active",
     "addedAt": "2026-11-23"
+  },
+  {
+    "id": 42,
+    "name": "nerv-base/Oddward",
+    "description": {
+      "zh-CN": "面向《异环》国服官方渠道的 Windows 非官方启动器，支持游戏下载、校验与更新，并集成账号管理、抽卡记录和每日签到。",
+      "en-US": "Unofficial Windows launcher for the official Neverness to Everness China client, with game download, verification and updates plus account management, gacha records and daily check-ins."
+    },
+    "repository": "https://github.com/nerv-base/Oddward",
+    "author": { "name": "nerv-base", "url": "https://github.com/nerv-base" },
+    "category": "Tools",
+    "tags": ["Tools", "Launcher", "Gacha"],
+    "license": "GPL-3.0",
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-11-23"
   }
 ]
