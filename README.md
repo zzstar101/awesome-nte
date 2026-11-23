@@ -80,7 +80,7 @@
 
 ## 贡献
 
-欢迎通过 [Issue](https://github.com/zzstar101/awesome-nte/issues/new) 或 Pull Request 提交新项目、修正描述、反馈失效链接或提出建议。新增条目只需维护 `data/projects.json` 并运行校验生成命令，详细说明见 **[CONTRIBUTING.md](./CONTRIBUTING.md)**。
+欢迎通过 [提交新项目表单](https://github.com/zzstar101/awesome-nte/issues/new?template=add-project.yml) 或 Pull Request 提交新项目、补充 Logo 与描述、反馈失效链接或提出建议。开发者可直接维护 `data/projects.json` 并运行校验生成命令，详细说明见 **[CONTRIBUTING.md](./CONTRIBUTING.md)**。
 
 ---
 

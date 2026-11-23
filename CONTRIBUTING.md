@@ -21,7 +21,11 @@
 
 ## 如何收录新项目
 
-### 方式一（推荐）：交互式命令
+### 方式一（最简单，推荐玩家与作者）：填写 Issue 表单
+
+不需要 Fork 仓库或配置本地环境，直接打开 [提交新项目表单](https://github.com/zzstar101/awesome-nte/issues/new?template=add-project.yml) 填写仓库链接、分类、简介（可选附带官网与项目 Logo 链接），维护者核实后会统一合入并同步到在线网站。
+
+### 方式二（开发者快捷 PR）：交互式命令
 
 ```bash
 bun run add
@@ -29,25 +33,27 @@ bun run add
 
 按提示输入仓库（`owner/repo`）、双语描述、分类、标签。脚本会抓取 GitHub 元数据并追加到 `data/projects.json`。
 
-### 方式二：编辑 `data/projects.json`
+### 方式三：手动编辑 `data/projects.json`
 
 在数组中新增一条记录：
 
 ```jsonc
 {
-  "id": 27,                        // 唯一正整数，取当前最大值 +1
+  "id": 43,                        // 唯一正整数，取当前最大值 +1
   "name": "owner/repo",            // GitHub 仓库 full_name
   "description": {                 // 双语，各一句话
     "zh-CN": "一句话说明它解决什么问题。",
     "en-US": "One sentence on what it does."
   },
   "repository": "https://github.com/owner/repo",
+  "logo": "https://raw.githubusercontent.com/owner/repo/main/assets/logo.png", // 可选，用于网站卡片展示的方图 Logo
+  "website": [{ "provider": "Custom", "url": "https://example.com" }],         // 可选，官网或文档链接
   "category": "Automation",        // 7 个分类之一，见下
   "tags": ["Automation", "CV"],    // 英文，跨维度标签
   "license": "MIT",                // 可选，SPDX
   "platform": ["Windows"],         // 可选
   "status": "active",              // 可选：active / stale / archived
-  "addedAt": "2026-09-10"
+  "addedAt": "2026-11-23"
 }
 ```
 

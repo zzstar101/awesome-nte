@@ -1,0 +1,32 @@
+name: "🔧 Update or Remove a Project / 修正或移除项目"
+description: "Update metadata/logo/status, report a broken link, or request removal. / 补充 Logo 与简介、反馈失效链接、举报违规或申请移除。"
+title: "[Update] "
+labels: ["update-project"]
+body:
+  - type: dropdown
+    id: action
+    attributes:
+      label: "变更类型 / Request Type"
+      options:
+        - "Update metadata / 补充或更新信息（Logo、官网、描述、平台等）"
+        - "Status change / 维护状态变更（已归档、停更、恢复维护）"
+        - "Broken link / 仓库或官网链接失效"
+        - "Compliance or takedown / 合规问题或权利人移除申请"
+    validations:
+      required: true
+
+  - type: input
+    id: project
+    attributes:
+      label: "对应项目（owner/repo 或编号）/ Project (owner/repo or ID)"
+      placeholder: "owner/repo"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: "具体说明 / Details"
+      description: "请说明需要修改的内容、新 Logo/官网链接，或移除原因 / Describe what should be updated or why it should be removed."
+    validations:
+      required: true

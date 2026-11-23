@@ -1,60 +1,116 @@
-name: Suggest a project
-description: Suggest adding an open-source project to the awesome-nte list.
-title: "[add] "
-labels: ["suggestion"]
+name: "✨ Submit a Project / 提交新项目"
+description: "Suggest or self-nominate an open-source Neverness to Everness (NTE) project. / 推荐或自荐收录《异环》开源项目。"
+title: "[Add] "
+labels: ["add-project"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢分享《异环》社区开源项目！请填写下方表单，维护者审核后将同步至 `LIST.md` 与[在线档案站](https://zzstar101.github.io/awesome-nte/)。
+        Thanks for sharing an open-source NTE project! Fill out the form below — once reviewed, it will appear in `LIST.md` and the [Web Archive](https://zzstar101.github.io/awesome-nte/?lang=en).
+
+        > 💡 **开发者快捷通道 / For Developers**：如果你熟悉 Git & Bun，也欢迎直接按 [CONTRIBUTING.md](https://github.com/zzstar101/awesome-nte/blob/main/CONTRIBUTING.md) 编辑 `data/projects.json` 提交 PR 加速合入。
+
   - type: input
-    id: repo
+    id: repository
     attributes:
-      label: GitHub 仓库 (owner/repo)
-      placeholder: owner/repo
+      label: "GitHub 仓库链接 / GitHub Repository URL"
+      description: "必须是公开可读源码的开源仓库 / Must be a public repository with readable source code."
+      placeholder: "https://github.com/owner/repo"
     validations:
       required: true
-  - type: input
-    id: url
-    attributes:
-      label: 仓库链接
-      placeholder: https://github.com/owner/repo
-    validations:
-      required: true
-  - type: textarea
-    id: zh
-    attributes:
-      label: 中文描述（一句话，句号结尾）
-    validations:
-      required: true
-  - type: textarea
-    id: en
-    attributes:
-      label: English description (one sentence, period)
-    validations:
-      required: true
+
   - type: dropdown
     id: category
     attributes:
-      label: 分类
+      label: "所属分类 / Category"
       options:
-        - Automation
-        - Calculators
-        - Data
-        - Assets
-        - Mods
-        - Performance
-        - Tools
+        - "Automation — 自动化与挂机 (Automation & Bots)"
+        - "Calculators — 数值计算与规划 (Calculators & Planners)"
+        - "Data — 数据与统计 (Data & Analytics)"
+        - "Assets — 资源与数据挖掘 (Assets & Datamining)"
+        - "Mods — Mod 与外观 (Mods & Customization)"
+        - "Performance — 性能与画面 (Performance & Graphics)"
+        - "Tools — 工具与集成 (Tools & Integrations)"
     validations:
       required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "一句话简介（中文或英文）/ One-sentence description (ZH or EN)"
+      description: "简洁客观说明它解决什么问题（多游戏工具请注明支持异环 / State clearly what it does; mention NTE support for multi-game tools）"
+      placeholder: "例如：基于屏幕识别的异环自动钓鱼助手，支持分辨率自适应与状态面板。 / e.g. Screen-reading auto-fishing helper for NTE with resolution adaptation."
+    validations:
+      required: true
+
+  - type: textarea
+    id: description_alt
+    attributes:
+      label: "另一语种简介（可选）/ Translation in the other language (optional)"
+      description: "留空即可，维护者会在收录时补齐双语描述 / Leave blank if unsure — maintainers will add the translation."
+      placeholder: "Optional Chinese or English translation..."
+    validations:
+      required: false
+
+  - type: input
+    id: website
+    attributes:
+      label: "官网或在线文档链接（可选）/ Website or Docs URL (optional)"
+      placeholder: "https://example.com"
+    validations:
+      required: false
+
+  - type: input
+    id: logo
+    attributes:
+      label: "项目 Logo 链接（可选）/ Project Logo URL (optional)"
+      description: "用于在在线网站卡片展示，推荐仓库内的方图 PNG / SVG 原始链接；留空则自动使用仓库作者/组织头像 / Square PNG/SVG URL for the web archive card; defaults to owner avatar if omitted."
+      placeholder: "https://raw.githubusercontent.com/owner/repo/main/assets/logo.png"
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: platforms
+    attributes:
+      label: "支持平台（可选）/ Supported Platforms (optional)"
+      options:
+        - label: Windows
+        - label: Linux
+        - label: macOS
+        - label: Web
+        - label: Android
+        - label: iOS
+
+  - type: input
+    id: tags
+    attributes:
+      label: "特性标签（可选）/ Tags (optional)"
+      description: "英文关键词，逗号分隔 / Comma-separated English keywords"
+      placeholder: "OCR, Gacha, Cross-Platform"
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "差异化说明或补充备注（可选）/ Differentiation or extra notes (optional)"
+      description: "如果已有同类工具，请简述本项目的独特优势（如跨平台、算法更稳、功能更全等）"
+    validations:
+      required: false
+
   - type: checkboxes
     id: criteria
     attributes:
-      label: 收录标准确认
+      label: "收录标准确认 / Inclusion Criteria Checklist"
       options:
-        - label: 开源且可读源码
+        - label: "开源透明：有公开可读源代码，非纯二进制闭源分发 / Open source with public readable code"
           required: true
-        - label: 与异环 (NTE) 相关，或明确支持 NTE
+        - label: "直接相关：面向《异环》(NTE)，或明确声明支持 NTE / Built for NTE or explicitly supports NTE"
           required: true
-        - label: 有 README 且可用
+        - label: "清晰可用：有说明用途与用法的 README，非空壳占位 / Has a clear README and is usable"
           required: true
-        - label: 不修改游戏进程/内存/网络（无注入）
+        - label: "合规零注入：不修改游戏进程、内存或网络，无外挂与私服 / Zero memory/process injection & not a private server"
           required: true
-        - label: 与该功能域现有项目不重复（如重复请说明差异化）
+        - label: "已核对现有列表，同类功能无重复（或已在备注中说明差异化）/ Checked existing list for duplicates"
           required: false

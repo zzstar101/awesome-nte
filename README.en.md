@@ -80,7 +80,7 @@ Entries are also **de-duplicated** per functional niche: one representative proj
 
 ## Contributing
 
-Open-source your project, spot a broken link, or suggest an addition via [Issue](https://github.com/zzstar101/awesome-nte/issues/new) or Pull Request. Contributors only edit `data/projects.json` and run the check/generate scripts — see **[CONTRIBUTING.en.md](./CONTRIBUTING.en.md)** for full details.
+Open-source your project, add a logo, spot a broken link, or suggest an addition via the [Submit Project Form](https://github.com/zzstar101/awesome-nte/issues/new?template=add-project.yml) or Pull Request. Developers can also edit `data/projects.json` directly and run the check/generate scripts — see **[CONTRIBUTING.en.md](./CONTRIBUTING.en.md)** for full details.
 
 ---
 

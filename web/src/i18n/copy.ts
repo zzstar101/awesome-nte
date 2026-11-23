@@ -5,7 +5,8 @@ export type ViewMode = "grid" | "list";
 export type ThemeMode = "day" | "night";
 
 export const REPO_URL = "https://github.com/zzstar101/awesome-nte";
-export const SUBMIT_ISSUE_URL = "https://github.com/zzstar101/awesome-nte/issues/new";
+export const SUBMIT_ISSUE_URL =
+  "https://github.com/zzstar101/awesome-nte/issues/new?template=add-project.yml";
 export const CONTRIBUTING_URL = {
   "zh-CN": "https://github.com/zzstar101/awesome-nte/blob/main/CONTRIBUTING.md",
   "en-US": "https://github.com/zzstar101/awesome-nte/blob/main/CONTRIBUTING.en.md",

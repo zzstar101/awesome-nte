@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "🚀 Submit via Pull Request (Developers) / 开发者直接提 PR"
+    url: "https://github.com/zzstar101/awesome-nte/blob/main/CONTRIBUTING.md"
+    about: "Edit data/projects.json directly and run bun run check && bun run generate. / 按贡献指南直接编辑数据提 PR。"
+  - name: "🌐 Online Web Archive / 访问在线档案站"
+    url: "https://zzstar101.github.io/awesome-nte/"
+    about: "Search and check if a project is already listed before submitting. / 提交前可先在在线站搜索是否已被收录。"

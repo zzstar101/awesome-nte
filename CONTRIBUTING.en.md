@@ -21,7 +21,11 @@ Not gated by: star count (0★ new projects are fine if useful), activity (archi
 
 ## Adding a project
 
-### Option 1 (recommended): interactive command
+### Option 1 (easiest, no Git setup needed): Issue Form
+
+No need to fork or install anything locally — simply fill out the [Submit a Project Form](https://github.com/zzstar101/awesome-nte/issues/new?template=add-project.yml) with the repository URL, category, short summary (plus optional website and square logo URL). Maintainers will review and add it to both `LIST.*` and the web archive.
+
+### Option 2 (PR via CLI): interactive command
 
 ```bash
 bun run add
@@ -29,25 +33,27 @@ bun run add
 
 Enter the repo (`owner/repo`), bilingual description, category and tags. The script fetches metadata and appends to `data/projects.json`.
 
-### Option 2: edit `data/projects.json`
+### Option 3: edit `data/projects.json` directly
 
 Append an entry:
 
 ```jsonc
 {
-  "id": 27,
+  "id": 43,
   "name": "owner/repo",
   "description": {
     "zh-CN": "一句话说明它解决什么问题。",
     "en-US": "One sentence on what it does."
   },
   "repository": "https://github.com/owner/repo",
+  "logo": "https://raw.githubusercontent.com/owner/repo/main/assets/logo.png", // optional square icon for web archive cards
+  "website": [{ "provider": "Custom", "url": "https://example.com" }],         // optional website or docs
   "category": "Automation",
   "tags": ["Automation", "CV"],
   "license": "MIT",
   "platform": ["Windows"],
   "status": "active",
-  "addedAt": "2026-09-10"
+  "addedAt": "2026-11-23"
 }
 ```
 
