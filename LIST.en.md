@@ -24,7 +24,6 @@
 
 ## Calculators & Planners
 
-- [NTE-tools/NTE-Drive-Calculator](https://github.com/NTE-tools/NTE-Drive-Calculator) - Cultivation (drive) calculator for Neverness to Everness, helping plan character progression and loadouts. (AGPL-3.0)
 - [Tsukimisaka/NTE-Cassette-Tuner](https://github.com/Tsukimisaka/NTE-Cassette-Tuner) - All-in-one progression and damage calculator for NTE with fast OCR scanning, gear recommendations, detailed damage and material math with tunable formulas. (MIT)
 - [ExpiredMilker/NTEGachaSimulator](https://github.com/ExpiredMilker/NTEGachaSimulator) - Gacha (warp) simulator for Neverness to Everness for testing and planning pulls.
 - [Apen/nte-optimizer](https://github.com/Apen/nte-optimizer) - Local Neverness to Everness gear optimizer that imports account inventory and searches for the best module, cartridge and set combinations. (Windows)
@@ -33,7 +32,6 @@
 
 ## Data & Analytics
 
-- [p62003/NTE-DPS-Meter](https://github.com/p62003/NTE-DPS-Meter) - Real-time DPS overlay using passive packet capture (no memory injection), with party tracking and community rankings.
 - [Anong0u0/NTE_Gacha_Exporter](https://github.com/Anong0u0/NTE_Gacha_Exporter) - Gacha history analysis and export tool for NTE, supporting multiple banners and tracker-ready JSON output. (MIT)
 - [AixLnyt/NTE-Network-Traffic-Analysis](https://github.com/AixLnyt/NTE-Network-Traffic-Analysis) - Wireshark-based traffic analysis and reverse-engineering research, documenting NTE servers, domains, TLS and protocol behavior.
 - [laipz8200/yihuan-cat-kiosk-stats](https://github.com/laipz8200/yihuan-cat-kiosk-stats) - Tampermonkey userscript that summarizes spending, income, profit and ROI for the Neverness to Everness Midnight Cat Kiosk event with charts. (GPL-3.0 · Web)
@@ -41,13 +39,10 @@
 ## Assets & Datamining
 
 - [Waifus-Grace/NTE_Assets](https://github.com/Waifus-Grace/NTE_Assets) - Extracted Neverness to Everness game assets, including UI textures, data tables and localization text.
-- [CHN-HelloWorld/NEMI](https://github.com/CHN-HelloWorld/NEMI) - Model importer for Neverness to Everness, bringing in-game models into Blender and other tools. (GPL-3.0)
 - [hakkindayo/Spine2Video-NTE-WuWa](https://github.com/hakkindayo/Spine2Video-NTE-WuWa) - Converts FModel-exported Spine animations from Neverness to Everness or Wuthering Waves into MP4 and transparent MOV videos. (Windows)
 
 ## Mods & Customization
 
-- [Daturaxoxo/Aurora](https://github.com/Daturaxoxo/Aurora) - Lightweight mod manager and publishing platform for anime games built with Rust/Slint, with Neverness to Everness support. (Windows/Linux)
-- [VanillaNahida/NTE-Custom-BAGEL](https://github.com/VanillaNahida/NTE-Custom-BAGEL) - Custom image replacement tool for NTE's BAGEL photo system, supporting CN and international servers. (Windows)
 - [Landmark1218/NTE-MusicSwapper](https://github.com/Landmark1218/NTE-MusicSwapper) - Neverness to Everness radio music replacer that packages custom WAV, MP3 or OGG audio into in-game radio tracks. (Windows)
 
 ## Performance & Graphics

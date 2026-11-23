@@ -78,21 +78,6 @@
     "addedAt": "2026-09-10"
   },
   {
-    "id": 6,
-    "name": "NTE-tools/NTE-Drive-Calculator",
-    "description": {
-      "zh-CN": "异环「驱动」养成计算器，帮助全角色轻松规划养成路线与搭配。",
-      "en-US": "Cultivation (drive) calculator for Neverness to Everness, helping plan character progression and loadouts."
-    },
-    "repository": "https://github.com/NTE-tools/NTE-Drive-Calculator",
-    "author": { "name": "hxwd94666", "url": "https://github.com/hxwd94666" },
-    "category": "Calculators",
-    "tags": ["Cultivation", "Planner"],
-    "license": "AGPL-3.0",
-    "status": "active",
-    "addedAt": "2026-09-10"
-  },
-  {
     "id": 7,
     "name": "Tsukimisaka/NTE-Cassette-Tuner",
     "description": {
@@ -118,21 +103,6 @@
     "author": { "name": "ExpiredMilker", "url": "https://github.com/ExpiredMilker" },
     "category": "Calculators",
     "tags": ["Gacha", "Simulator"],
-    "status": "active",
-    "addedAt": "2026-09-10"
-  },
-  {
-    "id": 10,
-    "name": "p62003/NTE-DPS-Meter",
-    "description": {
-      "zh-CN": "实时 DPS 悬浮窗，通过被动抓包（无内存注入）统计伤害，含队伍追踪与社区排行。",
-      "en-US": "Real-time DPS overlay using passive packet capture (no memory injection), with party tracking and community rankings."
-    },
-    "repository": "https://github.com/p62003/NTE-DPS-Meter",
-    "website": [{ "provider": "Custom", "url": "https://ntedpsmeter.com" }],
-    "author": { "name": "p62003", "url": "https://github.com/p62003" },
-    "category": "Data",
-    "tags": ["DPS", "Overlay", "Packet-Capture"],
     "status": "active",
     "addedAt": "2026-09-10"
   },
@@ -176,52 +146,6 @@
     "author": { "name": "Waifus-Grace", "url": "https://github.com/Waifus-Grace" },
     "category": "Assets",
     "tags": ["Datamining", "Assets"],
-    "status": "active",
-    "addedAt": "2026-09-10"
-  },
-  {
-    "id": 14,
-    "name": "CHN-HelloWorld/NEMI",
-    "description": {
-      "zh-CN": "异环模型导入器，用于将游戏模型导入 Blender 等工具进行查看与修改。",
-      "en-US": "Model importer for Neverness to Everness, bringing in-game models into Blender and other tools."
-    },
-    "repository": "https://github.com/CHN-HelloWorld/NEMI",
-    "author": { "name": "CHN-HelloWorld", "url": "https://github.com/CHN-HelloWorld" },
-    "category": "Assets",
-    "tags": ["Model-Import", "Blender"],
-    "license": "GPL-3.0",
-    "status": "active",
-    "addedAt": "2026-09-10"
-  },
-  {
-    "id": 15,
-    "name": "Daturaxoxo/Aurora",
-    "description": {
-      "zh-CN": "面向二次元游戏的轻量 Mod 管理器与发布平台，使用 Rust/Slint 构建，支持异环。",
-      "en-US": "Lightweight mod manager and publishing platform for anime games built with Rust/Slint, with Neverness to Everness support."
-    },
-    "repository": "https://github.com/Daturaxoxo/Aurora",
-    "website": [{ "provider": "Custom", "url": "https://getaurora.moe" }],
-    "author": { "name": "Daturaxoxo", "url": "https://github.com/Daturaxoxo" },
-    "category": "Mods",
-    "tags": ["Mod-Manager", "Cross-Platform"],
-    "status": "active",
-    "platform": ["Windows", "Linux"],
-    "addedAt": "2026-09-10"
-  },
-  {
-    "id": 16,
-    "name": "VanillaNahida/NTE-Custom-BAGEL",
-    "description": {
-      "zh-CN": "为异环 BAGEL 系统替换自定义图片/照片背景的工具，支持国服与国际服。",
-      "en-US": "Custom image replacement tool for NTE's BAGEL photo system, supporting CN and international servers."
-    },
-    "repository": "https://github.com/VanillaNahida/NTE-Custom-BAGEL",
-    "author": { "name": "VanillaNahida", "url": "https://github.com/VanillaNahida" },
-    "category": "Mods",
-    "tags": ["Mod", "BAGEL", "Windows"],
-    "platform": ["Windows"],
     "status": "active",
     "addedAt": "2026-09-10"
   },

@@ -24,7 +24,6 @@
 
 ## 数值计算与规划
 
-- [NTE-tools/NTE-Drive-Calculator](https://github.com/NTE-tools/NTE-Drive-Calculator) - 异环「驱动」养成计算器，帮助全角色轻松规划养成路线与搭配。(AGPL-3.0)
 - [Tsukimisaka/NTE-Cassette-Tuner](https://github.com/Tsukimisaka/NTE-Cassette-Tuner) - 异环全能养成与伤害计算器，OCR 快速扫描、配装推荐、详细伤害与材料计算，公式参数可调。(MIT)
 - [ExpiredMilker/NTEGachaSimulator](https://github.com/ExpiredMilker/NTEGachaSimulator) - 异环抽卡模拟器，用于试验与规划抽取策略。
 - [Apen/nte-optimizer](https://github.com/Apen/nte-optimizer) - 本地运行的异环装备优化器，导入账号库存后搜索模块、卡带与套装的最优组合。(Windows)
@@ -33,7 +32,6 @@
 
 ## 数据与统计
 
-- [p62003/NTE-DPS-Meter](https://github.com/p62003/NTE-DPS-Meter) - 实时 DPS 悬浮窗，通过被动抓包（无内存注入）统计伤害，含队伍追踪与社区排行。
 - [Anong0u0/NTE_Gacha_Exporter](https://github.com/Anong0u0/NTE_Gacha_Exporter) - 异环抽卡记录分析与导出工具，支持多个卡池，输出可追踪的 JSON。(MIT)
 - [AixLnyt/NTE-Network-Traffic-Analysis](https://github.com/AixLnyt/NTE-Network-Traffic-Analysis) - 基于 Wireshark 的异环流量研究与逆向分析，记录服务器、域名、TLS 与协议行为。
 - [laipz8200/yihuan-cat-kiosk-stats](https://github.com/laipz8200/yihuan-cat-kiosk-stats) - 异环午夜猫刊亭活动统计油猴脚本，按日汇总消费、收入、盈亏与回报率并绘制趋势图。(GPL-3.0 · Web)
@@ -41,13 +39,10 @@
 ## 资源与数据挖掘
 
 - [Waifus-Grace/NTE_Assets](https://github.com/Waifus-Grace/NTE_Assets) - 异环游戏资源提取合集，包含 UI、数据表与文本等素材。
-- [CHN-HelloWorld/NEMI](https://github.com/CHN-HelloWorld/NEMI) - 异环模型导入器，用于将游戏模型导入 Blender 等工具进行查看与修改。(GPL-3.0)
 - [hakkindayo/Spine2Video-NTE-WuWa](https://github.com/hakkindayo/Spine2Video-NTE-WuWa) - 将 FModel 导出的异环或鸣潮 Spine 动画批量转换为 MP4 与透明 MOV 视频。(Windows)
 
 ## Mod 与外观
 
-- [Daturaxoxo/Aurora](https://github.com/Daturaxoxo/Aurora) - 面向二次元游戏的轻量 Mod 管理器与发布平台，使用 Rust/Slint 构建，支持异环。(Windows/Linux)
-- [VanillaNahida/NTE-Custom-BAGEL](https://github.com/VanillaNahida/NTE-Custom-BAGEL) - 为异环 BAGEL 系统替换自定义图片/照片背景的工具，支持国服与国际服。(Windows)
 - [Landmark1218/NTE-MusicSwapper](https://github.com/Landmark1218/NTE-MusicSwapper) - 异环车载电台音乐替换工具，可将自定义 WAV、MP3 或 OGG 音频打包为游戏内电台歌曲。(Windows)
 
 ## 性能与画面
