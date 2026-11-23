@@ -33,7 +33,6 @@
 
 ## 数据与统计
 
-- [NTE-tools/nte-dps-toolkit](https://github.com/NTE-tools/nte-dps-toolkit) - 开源 NTE DPS 工具包，用于伤害分析、测试与性能优化等研究工作流。(AGPL-3.0)
 - [p62003/NTE-DPS-Meter](https://github.com/p62003/NTE-DPS-Meter) - 实时 DPS 悬浮窗，通过被动抓包（无内存注入）统计伤害，含队伍追踪与社区排行。
 - [Anong0u0/NTE_Gacha_Exporter](https://github.com/Anong0u0/NTE_Gacha_Exporter) - 异环抽卡记录分析与导出工具，支持多个卡池，输出可追踪的 JSON。(MIT)
 - [AixLnyt/NTE-Network-Traffic-Analysis](https://github.com/AixLnyt/NTE-Network-Traffic-Analysis) - 基于 Wireshark 的异环流量研究与逆向分析，记录服务器、域名、TLS 与协议行为。

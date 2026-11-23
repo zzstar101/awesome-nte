@@ -122,21 +122,6 @@
     "addedAt": "2026-09-10"
   },
   {
-    "id": 9,
-    "name": "NTE-tools/nte-dps-toolkit",
-    "description": {
-      "zh-CN": "开源 NTE DPS 工具包，用于伤害分析、测试与性能优化等研究工作流。",
-      "en-US": "Open-source NTE DPS toolkit for damage analytics, testing and performance-optimization workflows."
-    },
-    "repository": "https://github.com/NTE-tools/nte-dps-toolkit",
-    "author": { "name": "kongbaiz", "url": "https://github.com/kongbaiz" },
-    "category": "Data",
-    "tags": ["DPS", "Analysis", "Cross-Platform"],
-    "license": "AGPL-3.0",
-    "status": "active",
-    "addedAt": "2026-09-10"
-  },
-  {
     "id": 10,
     "name": "p62003/NTE-DPS-Meter",
     "description": {

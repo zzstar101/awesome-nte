@@ -33,7 +33,6 @@
 
 ## Data & Analytics
 
-- [NTE-tools/nte-dps-toolkit](https://github.com/NTE-tools/nte-dps-toolkit) - Open-source NTE DPS toolkit for damage analytics, testing and performance-optimization workflows. (AGPL-3.0)
 - [p62003/NTE-DPS-Meter](https://github.com/p62003/NTE-DPS-Meter) - Real-time DPS overlay using passive packet capture (no memory injection), with party tracking and community rankings.
 - [Anong0u0/NTE_Gacha_Exporter](https://github.com/Anong0u0/NTE_Gacha_Exporter) - Gacha history analysis and export tool for NTE, supporting multiple banners and tracker-ready JSON output. (MIT)
 - [AixLnyt/NTE-Network-Traffic-Analysis](https://github.com/AixLnyt/NTE-Network-Traffic-Analysis) - Wireshark-based traffic analysis and reverse-engineering research, documenting NTE servers, domains, TLS and protocol behavior.
