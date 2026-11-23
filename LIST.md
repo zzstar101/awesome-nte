@@ -13,38 +13,48 @@
 
 ## 自动化与挂机
 
-- [1bananachicken/MaaNTE](https://github.com/1bananachicken/MaaNTE) - 基于 MaaFramework 的异环全能小助手，用屏幕识别实现日常任务、自动采集、副本挂机与抽卡记录，无注入。(AGPL-3.0 · Windows/Linux)
+- [Maa-NTE/MaaNTE](https://github.com/Maa-NTE/MaaNTE) - 基于 MaaFramework 的异环全能小助手，用屏幕识别实现日常任务、自动采集、副本挂机与抽卡记录，无注入。(AGPL-3.0 · Windows/Linux)
 - [BnanZ0/ok-nte](https://github.com/BnanZ0/ok-nte) - 基于 ok-script 框架的异环图像识别自动化工具，支持后台副本挂机与丰富的插件生态，无内存注入。(GPL-3.0 · Windows)
 - [BetterAutoFramework/BetterNTE](https://github.com/BetterAutoFramework/BetterNTE) - 面向异环的「更好」自动化框架与桌面客户端，基于 Rust/Tauri，追求更稳定、更快的自动化体验。(GPL-3.0 · Windows/Linux)
 - [Loping151/TGDSign](https://github.com/Loping151/TGDSign) - 塔吉多社区每日签到插件（GSUID 生态），支持幻塔与异环。
 - [zzstar101/taygedo-auto-attendance](https://github.com/zzstar101/taygedo-auto-attendance) - 塔吉多自动签到工具，支持多账号、自动重登、APP/游戏签到与异环云时长，可部署到 GitHub Actions、Cloudflare Workers 或 Docker。(MIT)
+- [nokiruy/Noki-NTE-Auto](https://github.com/nokiruy/Noki-NTE-Auto) - 面向异环的 Python 自动化脚本合集，支持钓鱼、钢琴、战斗速切、音频检测闪避与弹刀以及自定义脚本。(Windows)
+- [Chizukuo/NTE-auto-fish](https://github.com/Chizukuo/NTE-auto-fish) - 基于 OpenCV 与 MSS 的异环自动钓鱼助手，提供实时状态面板、分辨率自适应和可调的 PID 控制参数。(MIT · Windows)
+- [M1ST0R/hethereau-hobbies-tool](https://github.com/M1ST0R/hethereau-hobbies-tool) - 模块化的异环爱好活动自动化工具箱，首个模块通过 OCR 与窗口输入自动完成店长特供循环。(MIT · Windows/Linux)
 
 ## 数值计算与规划
 
-- [hxwd94666/NTE-Drive-Calculator](https://github.com/hxwd94666/NTE-Drive-Calculator) - 异环「驱动」养成计算器，帮助全角色轻松规划养成路线与搭配。(AGPL-3.0)
+- [NTE-tools/NTE-Drive-Calculator](https://github.com/NTE-tools/NTE-Drive-Calculator) - 异环「驱动」养成计算器，帮助全角色轻松规划养成路线与搭配。(AGPL-3.0)
 - [Tsukimisaka/NTE-Cassette-Tuner](https://github.com/Tsukimisaka/NTE-Cassette-Tuner) - 异环全能养成与伤害计算器，OCR 快速扫描、配装推荐、详细伤害与材料计算，公式参数可调。(MIT)
 - [ExpiredMilker/NTEGachaSimulator](https://github.com/ExpiredMilker/NTEGachaSimulator) - 异环抽卡模拟器，用于试验与规划抽取策略。
+- [Apen/nte-optimizer](https://github.com/Apen/nte-optimizer) - 本地运行的异环装备优化器，导入账号库存后搜索模块、卡带与套装的最优组合。(Windows)
+- [Kuro-121/NTE-CafeOptimizer](https://github.com/Kuro-121/NTE-CafeOptimizer) - 针对异环咖舍玩法的网页优化器，计算收益最高的菜品菜单与角色阵容组合。(Web)
+- [AmicBeam/nte_quick_team_up](https://github.com/AmicBeam/nte_quick_team_up) - 异环预配队与云配队网页工具，可加载 xlsx 时间轴并实时重算队伍评分与 DPS。(Web)
 
 ## 数据与统计
 
-- [kongbaiz/nte-dps-toolkit](https://github.com/kongbaiz/nte-dps-toolkit) - 开源 NTE DPS 工具包，用于伤害分析、测试与性能优化等研究工作流。(AGPL-3.0)
+- [NTE-tools/nte-dps-toolkit](https://github.com/NTE-tools/nte-dps-toolkit) - 开源 NTE DPS 工具包，用于伤害分析、测试与性能优化等研究工作流。(AGPL-3.0)
 - [p62003/NTE-DPS-Meter](https://github.com/p62003/NTE-DPS-Meter) - 实时 DPS 悬浮窗，通过被动抓包（无内存注入）统计伤害，含队伍追踪与社区排行。
 - [Anong0u0/NTE_Gacha_Exporter](https://github.com/Anong0u0/NTE_Gacha_Exporter) - 异环抽卡记录分析与导出工具，支持多个卡池，输出可追踪的 JSON。(MIT)
 - [AixLnyt/NTE-Network-Traffic-Analysis](https://github.com/AixLnyt/NTE-Network-Traffic-Analysis) - 基于 Wireshark 的异环流量研究与逆向分析，记录服务器、域名、TLS 与协议行为。
+- [laipz8200/yihuan-cat-kiosk-stats](https://github.com/laipz8200/yihuan-cat-kiosk-stats) - 异环午夜猫刊亭活动统计油猴脚本，按日汇总消费、收入、盈亏与回报率并绘制趋势图。(GPL-3.0 · Web)
 
 ## 资源与数据挖掘
 
 - [Waifus-Grace/NTE_Assets](https://github.com/Waifus-Grace/NTE_Assets) - 异环游戏资源提取合集，包含 UI、数据表与文本等素材。
 - [CHN-HelloWorld/NEMI](https://github.com/CHN-HelloWorld/NEMI) - 异环模型导入器，用于将游戏模型导入 Blender 等工具进行查看与修改。(GPL-3.0)
+- [hakkindayo/Spine2Video-NTE-WuWa](https://github.com/hakkindayo/Spine2Video-NTE-WuWa) - 将 FModel 导出的异环或鸣潮 Spine 动画批量转换为 MP4 与透明 MOV 视频。(Windows)
 
 ## Mod 与外观
 
 - [Daturaxoxo/Aurora](https://github.com/Daturaxoxo/Aurora) - 面向二次元游戏的轻量 Mod 管理器与发布平台，使用 Rust/Slint 构建，支持异环。(Windows/Linux)
 - [VanillaNahida/NTE-Custom-BAGEL](https://github.com/VanillaNahida/NTE-Custom-BAGEL) - 为异环 BAGEL 系统替换自定义图片/照片背景的工具，支持国服与国际服。(Windows)
+- [Landmark1218/NTE-MusicSwapper](https://github.com/Landmark1218/NTE-MusicSwapper) - 异环车载电台音乐替换工具，可将自定义 WAV、MP3 或 OGG 音频打包为游戏内电台歌曲。(Windows)
 
 ## 性能与画面
 
 - [AlteriaX/NTE-Configs](https://github.com/AlteriaX/NTE-Configs) - 异环配置文件合集，用于优化画面效果或性能表现。
+- [llg1634/nte-hdr-panel](https://github.com/llg1634/nte-hdr-panel) - 异环原生 HDR 一键开启面板，通过写入 Engine.ini 启用 UE HDR 输出，并支持备份恢复与只读保护。(MIT · Windows)
 
 ## 工具与集成
 
@@ -57,3 +67,8 @@
 - [bcheung98/irminsul-gg](https://github.com/bcheung98/irminsul-gg) - 多款抽卡游戏（含异环）的综合数据库与工具集合，基于 Next.js。(MIT · Web)
 - [PaoloESAN/gacha-setup](https://github.com/PaoloESAN/gacha-setup) - Blender 插件，为抽卡游戏（含异环）模型提供自动绑定、卡通着色与材质管线。(GPL-3.0)
 - [Jed556/AutoMidiPlayer](https://github.com/Jed556/AutoMidiPlayer) - 多功能 MIDI 转按键播放器，用于异环等游戏内的乐器弹奏，基于 C#/WPF。(GPL-3.0 · Windows)
+- [MiPoNianYou/NTE-Flowboard](https://github.com/MiPoNianYou/NTE-Flowboard) - 本地优先的异环周期任务清单，按服务器时间自动重置每日、每周与每月待办并追踪完成进度。(MIT · Web)
+- [klukule/HTDecrypt](https://github.com/klukule/HTDecrypt) - 异环配置文件加解密与日志跟踪工具集，可加密或解密 INI 配置并实时跟踪日志输出。(Windows)
+- [Sparkle0v0Hxl/HuaXiaoLing-Launcher](https://github.com/Sparkle0v0Hxl/HuaXiaoLing-Launcher) - 支持异环的多游戏便携启动器，提供多服务器硬链接切换、官方更新、抽卡记录与弹幕点歌。(MIT · Windows)
+- [loyal37/NTE-Bridge](https://github.com/loyal37/NTE-Bridge) - 连接 Blender 与虚幻引擎的异环角色 Mod 制作桥，支持资产识别、材质替换、导出与 pak 打包。(Windows)
+- [xyxyx718/NTEminiMapAlwaysUp](https://github.com/xyxyx718/NTEminiMapAlwaysUp) - 让异环小地图箭头始终朝上的屏幕捕获工具，通过鼠标穿透覆盖层显示旋转后的小地图。(MIT · Windows)

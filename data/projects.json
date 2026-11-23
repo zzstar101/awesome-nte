@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "name": "1bananachicken/MaaNTE",
+    "name": "Maa-NTE/MaaNTE",
     "description": {
       "zh-CN": "基于 MaaFramework 的异环全能小助手，用屏幕识别实现日常任务、自动采集、副本挂机与抽卡记录，无注入。",
       "en-US": "All-in-one Neverness to Everness assistant built on MaaFramework, automating dailies, farming, dungeons and gacha tracking via screen recognition without injection."
     },
-    "repository": "https://github.com/1bananachicken/MaaNTE",
+    "repository": "https://github.com/Maa-NTE/MaaNTE",
     "website": [{ "provider": "Custom", "url": "https://docs.maante.org" }],
     "author": { "name": "1bananachicken", "url": "https://github.com/1bananachicken" },
     "category": "Automation",
@@ -79,12 +79,12 @@
   },
   {
     "id": 6,
-    "name": "hxwd94666/NTE-Drive-Calculator",
+    "name": "NTE-tools/NTE-Drive-Calculator",
     "description": {
       "zh-CN": "异环「驱动」养成计算器，帮助全角色轻松规划养成路线与搭配。",
       "en-US": "Cultivation (drive) calculator for Neverness to Everness, helping plan character progression and loadouts."
     },
-    "repository": "https://github.com/hxwd94666/NTE-Drive-Calculator",
+    "repository": "https://github.com/NTE-tools/NTE-Drive-Calculator",
     "author": { "name": "hxwd94666", "url": "https://github.com/hxwd94666" },
     "category": "Calculators",
     "tags": ["Cultivation", "Planner"],
@@ -123,12 +123,12 @@
   },
   {
     "id": 9,
-    "name": "kongbaiz/nte-dps-toolkit",
+    "name": "NTE-tools/nte-dps-toolkit",
     "description": {
       "zh-CN": "开源 NTE DPS 工具包，用于伤害分析、测试与性能优化等研究工作流。",
       "en-US": "Open-source NTE DPS toolkit for damage analytics, testing and performance-optimization workflows."
     },
-    "repository": "https://github.com/kongbaiz/nte-dps-toolkit",
+    "repository": "https://github.com/NTE-tools/nte-dps-toolkit",
     "author": { "name": "kongbaiz", "url": "https://github.com/kongbaiz" },
     "category": "Data",
     "tags": ["DPS", "Analysis", "Cross-Platform"],
@@ -390,5 +390,239 @@
     "platform": ["Windows"],
     "status": "active",
     "addedAt": "2026-09-10"
+  },
+  {
+    "id": 27,
+    "name": "nokiruy/Noki-NTE-Auto",
+    "description": {
+      "zh-CN": "面向异环的 Python 自动化脚本合集，支持钓鱼、钢琴、战斗速切、音频检测闪避与弹刀以及自定义脚本。",
+      "en-US": "Python automation script collection for Neverness to Everness covering fishing, piano, combat swaps, audio-based dodge and parry, and custom scripts."
+    },
+    "repository": "https://github.com/nokiruy/Noki-NTE-Auto",
+    "author": { "name": "nokiruy", "url": "https://github.com/nokiruy" },
+    "category": "Automation",
+    "tags": ["Automation", "Fishing", "Python"],
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-11-23"
+  },
+  {
+    "id": 28,
+    "name": "Chizukuo/NTE-auto-fish",
+    "description": {
+      "zh-CN": "基于 OpenCV 与 MSS 的异环自动钓鱼助手，提供实时状态面板、分辨率自适应和可调的 PID 控制参数。",
+      "en-US": "OpenCV- and MSS-based auto-fishing assistant for Neverness to Everness with a live control panel, resolution adaptation and tunable PID controls."
+    },
+    "repository": "https://github.com/Chizukuo/NTE-auto-fish",
+    "author": { "name": "Chizukuo", "url": "https://github.com/Chizukuo" },
+    "category": "Automation",
+    "tags": ["Automation", "Fishing", "Computer-Vision"],
+    "license": "MIT",
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-11-23"
+  },
+  {
+    "id": 29,
+    "name": "M1ST0R/hethereau-hobbies-tool",
+    "description": {
+      "zh-CN": "模块化的异环爱好活动自动化工具箱，首个模块通过 OCR 与窗口输入自动完成店长特供循环。",
+      "en-US": "Modular Neverness to Everness hobby automation toolkit whose first module automates the Owner's Selection loop with OCR and window-bound input."
+    },
+    "repository": "https://github.com/M1ST0R/hethereau-hobbies-tool",
+    "author": { "name": "M1ST0R", "url": "https://github.com/M1ST0R" },
+    "category": "Automation",
+    "tags": ["Automation", "OCR", "Cross-Platform"],
+    "license": "MIT",
+    "platform": ["Windows", "Linux"],
+    "status": "active",
+    "addedAt": "2026-11-23"
+  },
+  {
+    "id": 30,
+    "name": "Apen/nte-optimizer",
+    "description": {
+      "zh-CN": "本地运行的异环装备优化器，导入账号库存后搜索模块、卡带与套装的最优组合。",
+      "en-US": "Local Neverness to Everness gear optimizer that imports account inventory and searches for the best module, cartridge and set combinations."
+    },
+    "repository": "https://github.com/Apen/nte-optimizer",
+    "author": { "name": "Apen", "url": "https://github.com/Apen" },
+    "category": "Calculators",
+    "tags": ["Calculators", "Gear", "Optimizer"],
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-11-23"
+  },
+  {
+    "id": 31,
+    "name": "Kuro-121/NTE-CafeOptimizer",
+    "description": {
+      "zh-CN": "针对异环咖舍玩法的网页优化器，计算收益最高的菜品菜单与角色阵容组合。",
+      "en-US": "Web-based optimizer for the Neverness to Everness cafe mode that finds the highest-earning dish menu and character roster."
+    },
+    "repository": "https://github.com/Kuro-121/NTE-CafeOptimizer",
+    "website": [{ "provider": "GitHub Pages", "url": "https://kuro-121.github.io/NTE-CafeOptimizer/" }],
+    "author": { "name": "Kuro-121", "url": "https://github.com/Kuro-121" },
+    "category": "Calculators",
+    "tags": ["Calculators", "Web"],
+    "platform": ["Web"],
+    "status": "active",
+    "addedAt": "2026-11-23"
+  },
+  {
+    "id": 32,
+    "name": "AmicBeam/nte_quick_team_up",
+    "description": {
+      "zh-CN": "异环预配队与云配队网页工具，可加载 xlsx 时间轴并实时重算队伍评分与 DPS。",
+      "en-US": "Browser-based Neverness to Everness team builder that loads xlsx timelines and recalculates team scores and DPS in real time."
+    },
+    "repository": "https://github.com/AmicBeam/nte_quick_team_up",
+    "author": { "name": "AmicBeam", "url": "https://github.com/AmicBeam" },
+    "category": "Calculators",
+    "tags": ["Calculators", "Team", "Web"],
+    "platform": ["Web"],
+    "status": "active",
+    "addedAt": "2026-11-23"
+  },
+  {
+    "id": 33,
+    "name": "laipz8200/yihuan-cat-kiosk-stats",
+    "description": {
+      "zh-CN": "异环午夜猫刊亭活动统计油猴脚本，按日汇总消费、收入、盈亏与回报率并绘制趋势图。",
+      "en-US": "Tampermonkey userscript that summarizes spending, income, profit and ROI for the Neverness to Everness Midnight Cat Kiosk event with charts."
+    },
+    "repository": "https://github.com/laipz8200/yihuan-cat-kiosk-stats",
+    "author": { "name": "laipz8200", "url": "https://github.com/laipz8200" },
+    "category": "Data",
+    "tags": ["Data", "Userscript", "Statistics"],
+    "license": "GPL-3.0",
+    "platform": ["Web"],
+    "status": "active",
+    "addedAt": "2026-11-23"
+  },
+  {
+    "id": 34,
+    "name": "Landmark1218/NTE-MusicSwapper",
+    "description": {
+      "zh-CN": "异环车载电台音乐替换工具，可将自定义 WAV、MP3 或 OGG 音频打包为游戏内电台歌曲。",
+      "en-US": "Neverness to Everness radio music replacer that packages custom WAV, MP3 or OGG audio into in-game radio tracks."
+    },
+    "repository": "https://github.com/Landmark1218/NTE-MusicSwapper",
+    "author": { "name": "Landmark1218", "url": "https://github.com/Landmark1218" },
+    "category": "Mods",
+    "tags": ["Mods", "Audio", "Music"],
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-11-23"
+  },
+  {
+    "id": 35,
+    "name": "llg1634/nte-hdr-panel",
+    "description": {
+      "zh-CN": "异环原生 HDR 一键开启面板，通过写入 Engine.ini 启用 UE HDR 输出，并支持备份恢复与只读保护。",
+      "en-US": "One-click native HDR panel for Neverness to Everness that writes UE HDR settings to Engine.ini with backup, restore and read-only protection."
+    },
+    "repository": "https://github.com/llg1634/nte-hdr-panel",
+    "author": { "name": "llg1634", "url": "https://github.com/llg1634" },
+    "category": "Performance",
+    "tags": ["Performance", "HDR", "Graphics"],
+    "license": "MIT",
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-11-23"
+  },
+  {
+    "id": 36,
+    "name": "MiPoNianYou/NTE-Flowboard",
+    "description": {
+      "zh-CN": "本地优先的异环周期任务清单，按服务器时间自动重置每日、每周与每月待办并追踪完成进度。",
+      "en-US": "Local-first Neverness to Everness task tracker that resets daily, weekly and monthly checklists on server time and shows completion progress."
+    },
+    "repository": "https://github.com/MiPoNianYou/NTE-Flowboard",
+    "website": [{ "provider": "GitHub Pages", "url": "https://miponianyou.github.io/NTE-Flowboard/" }],
+    "author": { "name": "MiPoNianYou", "url": "https://github.com/MiPoNianYou" },
+    "category": "Tools",
+    "tags": ["Tools", "Planner", "PWA"],
+    "license": "MIT",
+    "platform": ["Web"],
+    "status": "active",
+    "addedAt": "2026-11-23"
+  },
+  {
+    "id": 37,
+    "name": "klukule/HTDecrypt",
+    "description": {
+      "zh-CN": "异环配置文件加解密与日志跟踪工具集，可加密或解密 INI 配置并实时跟踪日志输出。",
+      "en-US": "Toolkit for decrypting and encrypting Neverness to Everness INI configs and tailing game logs in real time."
+    },
+    "repository": "https://github.com/klukule/HTDecrypt",
+    "author": { "name": "klukule", "url": "https://github.com/klukule" },
+    "category": "Tools",
+    "tags": ["Tools", "Decryption", "Logs"],
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-11-23"
+  },
+  {
+    "id": 38,
+    "name": "Sparkle0v0Hxl/HuaXiaoLing-Launcher",
+    "description": {
+      "zh-CN": "支持异环的多游戏便携启动器，提供多服务器硬链接切换、官方更新、抽卡记录与弹幕点歌。",
+      "en-US": "Portable multi-game launcher supporting Neverness to Everness with hardlink-based server switching, official updates, gacha records and song requests."
+    },
+    "repository": "https://github.com/Sparkle0v0Hxl/HuaXiaoLing-Launcher",
+    "author": { "name": "Sparkle0v0Hxl", "url": "https://github.com/Sparkle0v0Hxl" },
+    "category": "Tools",
+    "tags": ["Tools", "Launcher", "Multi-Game"],
+    "license": "MIT",
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-11-23"
+  },
+  {
+    "id": 39,
+    "name": "loyal37/NTE-Bridge",
+    "description": {
+      "zh-CN": "连接 Blender 与虚幻引擎的异环角色 Mod 制作桥，支持资产识别、材质替换、导出与 pak 打包。",
+      "en-US": "Blender-to-Unreal Engine bridge for Neverness to Everness character modding, covering asset discovery, material replacement, export and pak packaging."
+    },
+    "repository": "https://github.com/loyal37/NTE-Bridge",
+    "author": { "name": "loyal37", "url": "https://github.com/loyal37" },
+    "category": "Tools",
+    "tags": ["Tools", "Blender", "Modding"],
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-11-23"
+  },
+  {
+    "id": 40,
+    "name": "xyxyx718/NTEminiMapAlwaysUp",
+    "description": {
+      "zh-CN": "让异环小地图箭头始终朝上的屏幕捕获工具，通过鼠标穿透覆盖层显示旋转后的小地图。",
+      "en-US": "Screen-capture tool that keeps the Neverness to Everness minimap arrow pointing up by overlaying a rotated minimap through a click-through window."
+    },
+    "repository": "https://github.com/xyxyx718/NTEminiMapAlwaysUp",
+    "author": { "name": "xyxyx718", "url": "https://github.com/xyxyx718" },
+    "category": "Tools",
+    "tags": ["Tools", "Overlay", "Screen-Reading"],
+    "license": "MIT",
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-11-23"
+  },
+  {
+    "id": 41,
+    "name": "hakkindayo/Spine2Video-NTE-WuWa",
+    "description": {
+      "zh-CN": "将 FModel 导出的异环或鸣潮 Spine 动画批量转换为 MP4 与透明 MOV 视频。",
+      "en-US": "Converts FModel-exported Spine animations from Neverness to Everness or Wuthering Waves into MP4 and transparent MOV videos."
+    },
+    "repository": "https://github.com/hakkindayo/Spine2Video-NTE-WuWa",
+    "author": { "name": "hakkindayo", "url": "https://github.com/hakkindayo" },
+    "category": "Assets",
+    "tags": ["Assets", "Video", "Spine"],
+    "platform": ["Windows"],
+    "status": "active",
+    "addedAt": "2026-11-23"
   }
 ]

@@ -13,38 +13,48 @@
 
 ## Automation & Bots
 
-- [1bananachicken/MaaNTE](https://github.com/1bananachicken/MaaNTE) - All-in-one Neverness to Everness assistant built on MaaFramework, automating dailies, farming, dungeons and gacha tracking via screen recognition without injection. (AGPL-3.0 · Windows/Linux)
+- [Maa-NTE/MaaNTE](https://github.com/Maa-NTE/MaaNTE) - All-in-one Neverness to Everness assistant built on MaaFramework, automating dailies, farming, dungeons and gacha tracking via screen recognition without injection. (AGPL-3.0 · Windows/Linux)
 - [BnanZ0/ok-nte](https://github.com/BnanZ0/ok-nte) - Image-recognition automation for Neverness to Everness built on the ok-script framework, supporting background dungeon grinding and a rich plugin ecosystem without injection. (GPL-3.0 · Windows)
 - [BetterAutoFramework/BetterNTE](https://github.com/BetterAutoFramework/BetterNTE) - Alternative automation framework and desktop client for Neverness to Everness built with Rust/Tauri, aiming for better performance and stability. (GPL-3.0 · Windows/Linux)
 - [Loping151/TGDSign](https://github.com/Loping151/TGDSign) - Taygedo daily check-in plugin for the GSUID ecosystem, supporting Tower of Fantasy and Neverness to Everness.
 - [zzstar101/taygedo-auto-attendance](https://github.com/zzstar101/taygedo-auto-attendance) - Taygedo auto check-in with multi-account support, auto-relogin, app/game check-in and NTE cloud time, deployable via GitHub Actions, Cloudflare Workers or Docker. (MIT)
+- [nokiruy/Noki-NTE-Auto](https://github.com/nokiruy/Noki-NTE-Auto) - Python automation script collection for Neverness to Everness covering fishing, piano, combat swaps, audio-based dodge and parry, and custom scripts. (Windows)
+- [Chizukuo/NTE-auto-fish](https://github.com/Chizukuo/NTE-auto-fish) - OpenCV- and MSS-based auto-fishing assistant for Neverness to Everness with a live control panel, resolution adaptation and tunable PID controls. (MIT · Windows)
+- [M1ST0R/hethereau-hobbies-tool](https://github.com/M1ST0R/hethereau-hobbies-tool) - Modular Neverness to Everness hobby automation toolkit whose first module automates the Owner's Selection loop with OCR and window-bound input. (MIT · Windows/Linux)
 
 ## Calculators & Planners
 
-- [hxwd94666/NTE-Drive-Calculator](https://github.com/hxwd94666/NTE-Drive-Calculator) - Cultivation (drive) calculator for Neverness to Everness, helping plan character progression and loadouts. (AGPL-3.0)
+- [NTE-tools/NTE-Drive-Calculator](https://github.com/NTE-tools/NTE-Drive-Calculator) - Cultivation (drive) calculator for Neverness to Everness, helping plan character progression and loadouts. (AGPL-3.0)
 - [Tsukimisaka/NTE-Cassette-Tuner](https://github.com/Tsukimisaka/NTE-Cassette-Tuner) - All-in-one progression and damage calculator for NTE with fast OCR scanning, gear recommendations, detailed damage and material math with tunable formulas. (MIT)
 - [ExpiredMilker/NTEGachaSimulator](https://github.com/ExpiredMilker/NTEGachaSimulator) - Gacha (warp) simulator for Neverness to Everness for testing and planning pulls.
+- [Apen/nte-optimizer](https://github.com/Apen/nte-optimizer) - Local Neverness to Everness gear optimizer that imports account inventory and searches for the best module, cartridge and set combinations. (Windows)
+- [Kuro-121/NTE-CafeOptimizer](https://github.com/Kuro-121/NTE-CafeOptimizer) - Web-based optimizer for the Neverness to Everness cafe mode that finds the highest-earning dish menu and character roster. (Web)
+- [AmicBeam/nte_quick_team_up](https://github.com/AmicBeam/nte_quick_team_up) - Browser-based Neverness to Everness team builder that loads xlsx timelines and recalculates team scores and DPS in real time. (Web)
 
 ## Data & Analytics
 
-- [kongbaiz/nte-dps-toolkit](https://github.com/kongbaiz/nte-dps-toolkit) - Open-source NTE DPS toolkit for damage analytics, testing and performance-optimization workflows. (AGPL-3.0)
+- [NTE-tools/nte-dps-toolkit](https://github.com/NTE-tools/nte-dps-toolkit) - Open-source NTE DPS toolkit for damage analytics, testing and performance-optimization workflows. (AGPL-3.0)
 - [p62003/NTE-DPS-Meter](https://github.com/p62003/NTE-DPS-Meter) - Real-time DPS overlay using passive packet capture (no memory injection), with party tracking and community rankings.
 - [Anong0u0/NTE_Gacha_Exporter](https://github.com/Anong0u0/NTE_Gacha_Exporter) - Gacha history analysis and export tool for NTE, supporting multiple banners and tracker-ready JSON output. (MIT)
 - [AixLnyt/NTE-Network-Traffic-Analysis](https://github.com/AixLnyt/NTE-Network-Traffic-Analysis) - Wireshark-based traffic analysis and reverse-engineering research, documenting NTE servers, domains, TLS and protocol behavior.
+- [laipz8200/yihuan-cat-kiosk-stats](https://github.com/laipz8200/yihuan-cat-kiosk-stats) - Tampermonkey userscript that summarizes spending, income, profit and ROI for the Neverness to Everness Midnight Cat Kiosk event with charts. (GPL-3.0 · Web)
 
 ## Assets & Datamining
 
 - [Waifus-Grace/NTE_Assets](https://github.com/Waifus-Grace/NTE_Assets) - Extracted Neverness to Everness game assets, including UI textures, data tables and localization text.
 - [CHN-HelloWorld/NEMI](https://github.com/CHN-HelloWorld/NEMI) - Model importer for Neverness to Everness, bringing in-game models into Blender and other tools. (GPL-3.0)
+- [hakkindayo/Spine2Video-NTE-WuWa](https://github.com/hakkindayo/Spine2Video-NTE-WuWa) - Converts FModel-exported Spine animations from Neverness to Everness or Wuthering Waves into MP4 and transparent MOV videos. (Windows)
 
 ## Mods & Customization
 
 - [Daturaxoxo/Aurora](https://github.com/Daturaxoxo/Aurora) - Lightweight mod manager and publishing platform for anime games built with Rust/Slint, with Neverness to Everness support. (Windows/Linux)
 - [VanillaNahida/NTE-Custom-BAGEL](https://github.com/VanillaNahida/NTE-Custom-BAGEL) - Custom image replacement tool for NTE's BAGEL photo system, supporting CN and international servers. (Windows)
+- [Landmark1218/NTE-MusicSwapper](https://github.com/Landmark1218/NTE-MusicSwapper) - Neverness to Everness radio music replacer that packages custom WAV, MP3 or OGG audio into in-game radio tracks. (Windows)
 
 ## Performance & Graphics
 
 - [AlteriaX/NTE-Configs](https://github.com/AlteriaX/NTE-Configs) - Collection of NTE configuration files to improve visuals or performance.
+- [llg1634/nte-hdr-panel](https://github.com/llg1634/nte-hdr-panel) - One-click native HDR panel for Neverness to Everness that writes UE HDR settings to Engine.ini with backup, restore and read-only protection. (MIT · Windows)
 
 ## Tools & Integrations
 
@@ -57,3 +67,8 @@
 - [bcheung98/irminsul-gg](https://github.com/bcheung98/irminsul-gg) - Comprehensive database and tool collection for gacha games including NTE, built with Next.js. (MIT · Web)
 - [PaoloESAN/gacha-setup](https://github.com/PaoloESAN/gacha-setup) - Blender add-on providing automated rigging, toon shaders and material pipelines for gacha models including NTE. (GPL-3.0)
 - [Jed556/AutoMidiPlayer](https://github.com/Jed556/AutoMidiPlayer) - Feature-rich MIDI-to-keyboard player for in-game instruments across multiple games including NTE, built with C#/WPF. (GPL-3.0 · Windows)
+- [MiPoNianYou/NTE-Flowboard](https://github.com/MiPoNianYou/NTE-Flowboard) - Local-first Neverness to Everness task tracker that resets daily, weekly and monthly checklists on server time and shows completion progress. (MIT · Web)
+- [klukule/HTDecrypt](https://github.com/klukule/HTDecrypt) - Toolkit for decrypting and encrypting Neverness to Everness INI configs and tailing game logs in real time. (Windows)
+- [Sparkle0v0Hxl/HuaXiaoLing-Launcher](https://github.com/Sparkle0v0Hxl/HuaXiaoLing-Launcher) - Portable multi-game launcher supporting Neverness to Everness with hardlink-based server switching, official updates, gacha records and song requests. (MIT · Windows)
+- [loyal37/NTE-Bridge](https://github.com/loyal37/NTE-Bridge) - Blender-to-Unreal Engine bridge for Neverness to Everness character modding, covering asset discovery, material replacement, export and pak packaging. (Windows)
+- [xyxyx718/NTEminiMapAlwaysUp](https://github.com/xyxyx718/NTEminiMapAlwaysUp) - Screen-capture tool that keeps the Neverness to Everness minimap arrow pointing up by overlaying a rotated minimap through a click-through window. (MIT · Windows)
