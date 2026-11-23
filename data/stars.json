@@ -1,109 +1,145 @@
 {
-  "updatedAt": "2026-11-22",
+  "updatedAt": "2026-11-23",
   "repos": {
     "Maa-NTE/MaaNTE": {
-      "stars": 2823,
-      "fetchedAt": "2026-11-22"
+      "stars": 2826,
+      "fetchedAt": "2026-11-23"
     },
     "BnanZ0/ok-nte": {
-      "stars": 1387,
-      "fetchedAt": "2026-11-22"
+      "stars": 1391,
+      "fetchedAt": "2026-11-23"
     },
     "BetterAutoFramework/BetterNTE": {
       "stars": 35,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "Loping151/TGDSign": {
       "stars": 27,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "zzstar101/taygedo-auto-attendance": {
       "stars": 28,
-      "fetchedAt": "2026-11-22"
-    },
-    "NTE-tools/NTE-Drive-Calculator": {
-      "stars": 345,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "Tsukimisaka/NTE-Cassette-Tuner": {
       "stars": 10,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "ExpiredMilker/NTEGachaSimulator": {
       "stars": 6,
-      "fetchedAt": "2026-11-22"
-    },
-    "NTE-tools/nte-dps-toolkit": {
-      "stars": 75,
-      "fetchedAt": "2026-11-22"
-    },
-    "p62003/NTE-DPS-Meter": {
-      "stars": 41,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "Anong0u0/NTE_Gacha_Exporter": {
       "stars": 50,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "AixLnyt/NTE-Network-Traffic-Analysis": {
       "stars": 11,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "Waifus-Grace/NTE_Assets": {
       "stars": 68,
-      "fetchedAt": "2026-11-22"
-    },
-    "CHN-HelloWorld/NEMI": {
-      "stars": 22,
-      "fetchedAt": "2026-11-22"
-    },
-    "Daturaxoxo/Aurora": {
-      "stars": 125,
-      "fetchedAt": "2026-11-22"
-    },
-    "VanillaNahida/NTE-Custom-BAGEL": {
-      "stars": 56,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "AlteriaX/NTE-Configs": {
       "stars": 62,
-      "fetchedAt": "2026-11-22"
-    },
-    "AnomalyNTE/Anomaly": {
-      "stars": 632,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "tyql688/NTEUID": {
       "stars": 81,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "LyraVoid/NTE-Compass": {
       "stars": 12,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "leck995/NTE-Maid": {
       "stars": 37,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "VanillaNahida/NTEServerSwitch": {
       "stars": 12,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "enenhhh/nte-player": {
       "stars": 6,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "bcheung98/irminsul-gg": {
       "stars": 7,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
     },
     "PaoloESAN/gacha-setup": {
-      "stars": 55,
-      "fetchedAt": "2026-11-22"
+      "stars": 57,
+      "fetchedAt": "2026-11-23"
     },
     "Jed556/AutoMidiPlayer": {
       "stars": 71,
-      "fetchedAt": "2026-11-22"
+      "fetchedAt": "2026-11-23"
+    },
+    "nokiruy/Noki-NTE-Auto": {
+      "stars": 621,
+      "fetchedAt": "2026-11-23"
+    },
+    "Chizukuo/NTE-auto-fish": {
+      "stars": 68,
+      "fetchedAt": "2026-11-23"
+    },
+    "M1ST0R/hethereau-hobbies-tool": {
+      "stars": 0,
+      "fetchedAt": "2026-11-23"
+    },
+    "Apen/nte-optimizer": {
+      "stars": 9,
+      "fetchedAt": "2026-11-23"
+    },
+    "Kuro-121/NTE-CafeOptimizer": {
+      "stars": 4,
+      "fetchedAt": "2026-11-23"
+    },
+    "AmicBeam/nte_quick_team_up": {
+      "stars": 4,
+      "fetchedAt": "2026-11-23"
+    },
+    "laipz8200/yihuan-cat-kiosk-stats": {
+      "stars": 3,
+      "fetchedAt": "2026-11-23"
+    },
+    "Landmark1218/NTE-MusicSwapper": {
+      "stars": 3,
+      "fetchedAt": "2026-11-23"
+    },
+    "llg1634/nte-hdr-panel": {
+      "stars": 6,
+      "fetchedAt": "2026-11-23"
+    },
+    "MiPoNianYou/NTE-Flowboard": {
+      "stars": 1,
+      "fetchedAt": "2026-11-23"
+    },
+    "klukule/HTDecrypt": {
+      "stars": 3,
+      "fetchedAt": "2026-11-23"
+    },
+    "Sparkle0v0Hxl/HuaXiaoLing-Launcher": {
+      "stars": 13,
+      "fetchedAt": "2026-11-23"
+    },
+    "loyal37/NTE-Bridge": {
+      "stars": 1,
+      "fetchedAt": "2026-11-23"
+    },
+    "xyxyx718/NTEminiMapAlwaysUp": {
+      "stars": 1,
+      "fetchedAt": "2026-11-23"
+    },
+    "hakkindayo/Spine2Video-NTE-WuWa": {
+      "stars": 2,
+      "fetchedAt": "2026-11-23"
+    },
+    "nerv-base/Oddward": {
+      "stars": 1,
+      "fetchedAt": "2026-11-23"
     }
   }
 }
