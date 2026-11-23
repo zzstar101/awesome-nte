@@ -126,6 +126,7 @@ Automation workflows:
 - **Stars** (`.github/workflows/stars.yml`): refreshes `data/stars.json` daily.
 - **Links** (`.github/workflows/links.yml`): checks for dead links weekly.
 - **Deploy Pages** (`.github/workflows/deploy.yml`): automatically builds and publishes the web archive to GitHub Pages on `main` pushes and after daily star syncs.
+- **AI Triage & Auto PR** (`.github/workflows/triage-submission.yml`): automatically inspects submitted project Issues, extracts metadata & logos, runs AI compliance/dedup triage with labels, and opens a ready-to-merge PR when approved.
 
 ---
 

@@ -126,6 +126,7 @@ bun run web:build  # TypeScript 检查 + 生产构建到 web/dist
 - **Stars**（`.github/workflows/stars.yml`）：每日定时刷新 `data/stars.json`。
 - **Links**（`.github/workflows/links.yml`）：每周自动巡检死链。
 - **Deploy Pages**（`.github/workflows/deploy.yml`）：推送 `main` 或每日 Star 更新完成后自动构建并发布在线网站。
+- **AI Triage & Auto PR**（`.github/workflows/triage-submission.yml`）：提交新项目 Issue 后自动抓取仓库元数据与 Logo、运行 AI 合规与去重初审并打标；初审通过或维护者贴 `approved` 标签后自动创建收录 PR。
 
 ---
 

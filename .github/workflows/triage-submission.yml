@@ -1,0 +1,133 @@
+name: AI Triage & Auto PR
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: triage-issue-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  triage:
+    if: >-
+      (
+        github.event.action == 'opened' &&
+        (
+          contains(github.event.issue.labels.*.name, 'add-project') ||
+          startsWith(github.event.issue.title, '[Add]')
+        )
+      ) ||
+      (
+        github.event.action == 'labeled' &&
+        (
+          github.event.label.name == 'approved' ||
+          github.event.label.name == 're-triage'
+        ) &&
+        (
+          contains(github.event.issue.labels.*.name, 'add-project') ||
+          startsWith(github.event.issue.title, '[Add]')
+        )
+      )
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Install root dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Run AI triage & metadata extraction
+        id: triage
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_BASE_URL: ${{ vars.AI_BASE_URL || 'https://api.nerv-base.com/v1' }}
+          AI_MODEL: ${{ vars.AI_MODEL || 'DeepSeek-V4.1-Flash' }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          TRIGGER_MODE: ${{ github.event.action == 'labeled' && github.event.label.name == 'approved' && 'force-approve' || 'auto' }}
+        run: bun run scripts/triage-issue.ts
+
+      - name: Update issue labels
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          LABELS_ADD: ${{ steps.triage.outputs.labels_to_add }}
+          LABELS_REMOVE: ${{ steps.triage.outputs.labels_to_remove }}
+        run: |
+          if [ -n "$LABELS_ADD" ]; then
+            gh issue edit "$ISSUE_NUMBER" --add-label "$LABELS_ADD" || true
+          fi
+          if [ -n "$LABELS_REMOVE" ]; then
+            IFS=',' read -ra REM <<< "$LABELS_REMOVE"
+            for lbl in "${REM[@]}"; do
+              [ -n "$lbl" ] && gh issue edit "$ISSUE_NUMBER" --remove-label "$lbl" || true
+            done
+          fi
+
+      - name: Commit and open/update Pull Request
+        if: steps.triage.outputs.should_open_pr == 'true'
+        id: pr
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: ${{ steps.triage.outputs.branch_name }}
+          PR_TITLE: ${{ steps.triage.outputs.pr_title }}
+          PR_BODY_FILE: ${{ steps.triage.outputs.pr_body_file }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          # Safety guard: only allow changes to curated data & generated markdown files
+          ALLOWED_REGEX='^(data/projects\.json|data/stars\.json|LIST\.md|LIST\.en\.md|README\.md|README\.en\.md)$'
+          CHANGED=$(git status --porcelain | awk '{print $2}')
+          if [ -z "$CHANGED" ]; then
+            echo "No changes generated; skipping PR."
+            exit 0
+          fi
+          while IFS= read -r file; do
+            if ! [[ "$file" =~ $ALLOWED_REGEX ]]; then
+              echo "::error::Unexpected file modified: $file"
+              exit 1
+            fi
+          done <<< "$CHANGED"
+
+          git config user.name "awesome-nte-bot[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$BRANCH_NAME"
+          git add data/projects.json data/stars.json LIST.md LIST.en.md README.md README.en.md
+          git commit -m "$PR_TITLE (#$ISSUE_NUMBER)"
+          git push --force-with-lease origin "$BRANCH_NAME" || git push --force origin "$BRANCH_NAME"
+
+          EXISTING_PR=$(gh pr list --head "$BRANCH_NAME" --state open --json url --jq '.[0].url')
+          if [ -n "$EXISTING_PR" ]; then
+            gh pr edit "$EXISTING_PR" --title "$PR_TITLE" --body-file "$PR_BODY_FILE"
+            echo "pr_url=$EXISTING_PR" >> "$GITHUB_OUTPUT"
+          else
+            PR_URL=$(gh pr create --base main --head "$BRANCH_NAME" --title "$PR_TITLE" --body-file "$PR_BODY_FILE")
+            echo "pr_url=$PR_URL" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Comment triage result on issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          COMMENT_FILE: ${{ steps.triage.outputs.issue_comment_file }}
+          PR_URL: ${{ steps.pr.outputs.pr_url }}
+        run: |
+          if [ -f "$COMMENT_FILE" ]; then
+            if [ -n "$PR_URL" ]; then
+              printf '\n\n👉 **自动创建的 PR / Pull Request**: %s\n' "$PR_URL" >> "$COMMENT_FILE"
+            fi
+            gh issue comment "$ISSUE_NUMBER" --body-file "$COMMENT_FILE"
+          fi
