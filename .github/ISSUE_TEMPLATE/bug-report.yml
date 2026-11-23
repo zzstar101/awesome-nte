@@ -1,0 +1,52 @@
+name: "🐛 Bug Report / 问题反馈"
+description: "Report a website glitch, broken UI, or script/workflow error. / 反馈在线网站显示异常、交互问题或脚本/工作流报错。"
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: scope
+    attributes:
+      label: "异常模块 / Area"
+      options:
+        - "Online Website (UI / Interaction) / 在线网站（界面或交互）"
+        - "Logo / Image / Link Rendering / 图标、图片或链接显示异常"
+        - "Local Scripts (check / generate / add) / 本地脚本报错"
+        - "GitHub Actions / AI Triage / 自动化工作流异常"
+        - "Other / 其他"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "问题描述 / What happened?"
+      description: "简述实际表现与预期表现的差异 / Describe what went wrong vs. what you expected."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "复现步骤（可选）/ Steps to Reproduce (optional)"
+      placeholder: |
+        1. 打开 https://zzstar101.github.io/awesome-nte/
+        2. 切换至极夜模式并点击 ...
+        3. 出现异常 ...
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: "环境信息（可选）/ Environment (optional)"
+      placeholder: "例如：Chrome 130 / macOS 15 / iOS Safari / 手机端"
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: "截图或报错日志（可选）/ Screenshots or Error Logs (optional)"
+      description: "可直接粘贴截图或控制台报错信息 / Paste screenshots or console/CI logs if available."
+    validations:
+      required: false

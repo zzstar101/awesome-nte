@@ -1,0 +1,42 @@
+name: "💡 Feature Request / 功能建议"
+description: "Suggest a new feature or improvement for the website, scripts, or index. / 为在线档案站、脚本或索引规则提出新功能与改进建议。"
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: scope
+    attributes:
+      label: "所属模块 / Area"
+      options:
+        - "Online Website / 在线档案站"
+        - "Index & Metadata / 索引分类与元数据"
+        - "Automation & CI / 自动化脚本与工作流"
+        - "Documentation & i18n / 文档与双语"
+        - "Other / 其他"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "背景或痛点 / Problem or Use Case"
+      description: "目前遇到了什么不方便的地方，或者希望解决什么场景？ / What problem or workflow would this improve?"
+      placeholder: "例如：希望网站能按编程语言或最近活跃时间筛选项目..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "期望方案 / Proposed Solution"
+      description: "简述你期待的交互、界面或功能表现 / Describe how you envision this working."
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: "补充说明或参考案例（可选）/ References or Mockups (optional)"
+      description: "可贴参考站点、截图或实现思路 / Links, screenshots, or implementation ideas."
+    validations:
+      required: false
